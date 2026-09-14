@@ -16,31 +16,114 @@
         }
 
         .container{
-            position: relative;
             width: 140vh;
             height: 80vh;
             background-color: rgba(0, 0, 0, 0.4);
             display: flex;
-            justify-content: center;
-            border: 1px solid #ffffff7a;
+            flex-direction: column;
             border-radius: 20px;
             z-index: 1;
             backdrop-filter: blur(10px); 
-            padding: 20px;
+            padding: 30px;
         }
         .container h1{
-            font-size: 4rem;
+            font-size: 4.5rem;
             font-weight: bold;
             color: rgb(255, 196, 0);
             font-family: "Bubblegum Sans", cursive;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .container h2{
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00e1ff;
+            font-family: "Bubblegum Sans", cursive;
+            margin-bottom: 10px;
+        }
+        .category, .qn-number, .difficulty, .button-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .category-options{
+            gap: 20px;
+        }
+        .btn{
+            padding: 8px 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #4a00e0;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #start-btn{
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #a32bff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
         }
 
+        #custom-q-input{
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #4a00e0;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
 
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Quix Setup</h1>
+
+        <div class="category">
+            <h2>Select a Category</h2>
+        
+            <div class="category-options">
+                <button class="btn setup-btn" data-category="Mix">Mix</button>
+                <button class="btn setup-btn" data-category="IQ">IQ</button>
+                <button class="btn setup-btn" data-category="Science">Science</button>
+                <button class="btn setup-btn" data-category="Math">Math</button>
+                <button class="btn setup-btn" data-category="Programming">Programming</button>
+                <button class="btn setup-btn" data-category="Sports">Sports</button>
+                <button class="btn setup-btn" data-category="Astronomy">Astronomy</button>
+                <button class="btn setup-btn" data-category="Geography">Geography</button>
+                <button class="btn setup-btn" data-category="History">History</button>
+            </div>
+        </div>
+        <div class="qn-number">
+            <h2>Enter the number of Questions</h2>
+            <input type="number" id="custom-q-input" placeholder="Custom" min="1" max="139" class="setup-btn">
+
+        </div>
+
+        <div class="difficulty">
+            <h2>Choose Difficulty</h2>
+            <div class="difficulty-options">
+                <button class="btn setup-btn" data-difficulty="easy">Easy</button>
+                <button class="btn setup-btn" data-difficulty="medium">Medium</button>
+                <button class="btn setup-btn" data-difficulty="hard">Hard</button>
+                <button class="btn setup-btn" data-difficulty="extreme">Extreme</button>
+            </div>
+        </div>
+        <div class="button-container">
+
+            <button id="start-btn">Start Quix</button>
+        </div>
     </div>
 </body>
 </html>
