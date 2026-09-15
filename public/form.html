@@ -179,7 +179,7 @@
             </div>
             <div class="button-container">
 
-                <button id="start-btn">Start Quix</button>
+                <button id="start-btn" id="submit" type="submit">Start Quix</button>
             </div>
         </div>
 
@@ -266,7 +266,7 @@
                 <p class="ready">
                     <span>Get Ready...</span>
                 </p>
-                <button class="btnn" id="submit" type="submit">Reveal Question</button>
+                <button class="btnn">Reveal Question</button>
             </div>
         </div>
         </form>
@@ -276,6 +276,7 @@
         let Category = null;
         let Difficulty = null;
         let QuestionCount = null;
+        let allquestions = [];
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
 
@@ -322,6 +323,7 @@
                 quiz.style.display = 'block';
             }
         })
+        
         const submitbtn = document.querySelector('#submit');
         submitbtn.addEventListener('submit', (e)=>{
             e.preventDefault();
@@ -338,11 +340,17 @@
                     limit: QuestionCount
                 })
             })
-            
+            .then(response=> response.json())
+            .then(result=>{
+                if(result.success){
+                    allquestions = result.questions;
+                    console.log(result.random);
+                }
+            })
         })
     
 
-        let allquestions = []
+        
     </script>
 </body>
 </html>

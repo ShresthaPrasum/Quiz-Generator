@@ -9,12 +9,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const data = fs.readFileSync('questions.json', 'utf8');
 const parsed_data = JSON.parse(data);
-console.log(parsed_data[0])
+
 
 app.post('/save',(req,res)=>{
-    const category = req.body.category;
     const limit = req.body.limit;
     const diff = req.body.diff;
+    const category = req.body.category;
+    const selected_questions = parsed_data.filter(p=>p.category==category);
+    const selected_questions1 = selected_questions.filter(s=>s.difficulty===diff);
+    const selected_questions2 = selected_questions1.sort(()=>Math.random()-0.5).slice(0, limit);
+    console.log(selected_questions2)
+    const random_numforfun = Math.floor(Math.random()*70);
+    res.json({
+        success:true,
+        questions: selected_questions2,
+        random: random_numforfun
+    })
 })
 app.listen(port, ()=>{
     console.log(`Server running on http://localhost:${port}`);
