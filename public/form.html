@@ -266,7 +266,7 @@
                 <p class="ready">
                     <span>Get Ready...</span>
                 </p>
-                <button class="btnn">Reveal Question</button>
+                <button class="btnn" id="submit" type="submit">Reveal Question</button>
             </div>
         </div>
         </form>
@@ -322,7 +322,25 @@
                 quiz.style.display = 'block';
             }
         })
-
+        const submitbtn = document.querySelector('#submit');
+        submitbtn.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            
+            console.log(Category);
+            console.log(Difficulty);
+            console.log(QuestionCount);
+            fetch('/save', {
+                method: POST,
+                headers: {'Content-type': 'application/json'},
+                'body': JSON.stringify({
+                    category: Category,
+                    diff: Difficulty,
+                    limit: QuestionCount
+                })
+            })
+            
+        })
+    
 
         let allquestions = []
     </script>
