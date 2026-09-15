@@ -16,8 +16,7 @@
         }
 
         .container{
-            width: 140vh;
-            height: 80vh;
+            width: 70%;
             background-color: rgba(0, 0, 0, 0.4);
             display: flex;
             flex-direction: column;
@@ -40,6 +39,7 @@
             color: #00e1ff;
             font-family: "Bubblegum Sans", cursive;
             margin-bottom: 10px;
+            text-align: center;
         }
         .category, .qn-number, .difficulty, .button-container{
             display: flex;
@@ -83,47 +83,246 @@
             cursor: pointer;
             margin-bottom: 10px;
         }
+        .active{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #00e1ff;
+        }
+        .questions{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            margin-top: 20px;
+        }
+        .qn{
+            border: 1px solid #00e1ff;
+            border-radius: 15px;
+            margin: 5px;
+            aspect-ratio: 1/1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .quiz{
+            display: none;
+            flex-direction: column;
+            align-items: center;
+        }
+        .question-area{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.158);
+            border-radius: 15px;
+        }
+        .question-area p{
+            font-weight: bold;
+            font-family: "Bubblegum Sans", cursive; 
+        }
+        .timer{
+            font-size: 3rem;
+            margin-top: 30px;
+            color: rgb(255, 183, 0)
+        }
+        .ready{
+            font-size: 2rem;
+            margin-bottom: 20px;
 
+        }
+        .question-area .btnn{
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #a32bff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Quix Setup</h1>
+        <div class="form">       
+            <h1>Quix Setup</h1>
+            <div class="category">
+                <h2>Select a Category</h2>
+            
+                <div class="category-options">
+                    <button class="btn setup-btn" data-category="Mix">Mix</button>
+                    <button class="btn setup-btn" data-category="IQ">IQ</button>
+                    <button class="btn setup-btn" data-category="Science">Science</button>
+                    <button class="btn setup-btn" data-category="Math">Math</button>
+                    <button class="btn setup-btn" data-category="Programming">Programming</button>
+                    <button class="btn setup-btn" data-category="Sports">Sports</button>
+                    <button class="btn setup-btn" data-category="Astronomy">Astronomy</button>
+                    <button class="btn setup-btn" data-category="Geography">Geography</button>
+                    <button class="btn setup-btn" data-category="History">History</button>
+                </div>
+            </div>
+            <div class="qn-number">
+                <h2>Enter the number of Questions</h2>
+                <input type="number" id="custom-q-input" placeholder="Custom" min="1" max="139" class="setup-btn">
 
-        <div class="category">
-            <h2>Select a Category</h2>
-        
-            <div class="category-options">
-                <button class="btn setup-btn" data-category="Mix">Mix</button>
-                <button class="btn setup-btn" data-category="IQ">IQ</button>
-                <button class="btn setup-btn" data-category="Science">Science</button>
-                <button class="btn setup-btn" data-category="Math">Math</button>
-                <button class="btn setup-btn" data-category="Programming">Programming</button>
-                <button class="btn setup-btn" data-category="Sports">Sports</button>
-                <button class="btn setup-btn" data-category="Astronomy">Astronomy</button>
-                <button class="btn setup-btn" data-category="Geography">Geography</button>
-                <button class="btn setup-btn" data-category="History">History</button>
+            </div>
+
+            <div class="difficulty">
+                <h2>Choose Difficulty</h2>
+                <div class="difficulty-options">
+                    <button class="btn setup-btn" data-difficulty="easy">Easy</button>
+                    <button class="btn setup-btn" data-difficulty="moderate">Moderate</button>
+                    <button class="btn setup-btn" data-difficulty="hard">Hard</button>
+                    <button class="btn setup-btn" data-difficulty="extreme">Extreme</button>
+                </div>
+            </div>
+            <div class="button-container">
+
+                <button id="start-btn">Start Quix</button>
             </div>
         </div>
-        <div class="qn-number">
-            <h2>Enter the number of Questions</h2>
-            <input type="number" id="custom-q-input" placeholder="Custom" min="1" max="139" class="setup-btn">
 
-        </div>
-
-        <div class="difficulty">
-            <h2>Choose Difficulty</h2>
-            <div class="difficulty-options">
-                <button class="btn setup-btn" data-difficulty="easy">Easy</button>
-                <button class="btn setup-btn" data-difficulty="medium">Medium</button>
-                <button class="btn setup-btn" data-difficulty="hard">Hard</button>
-                <button class="btn setup-btn" data-difficulty="extreme">Extreme</button>
+        <div class="quiz">
+            <h2>Pick A Question!</h2>
+            <div class="questions">
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
+                <div class="qn">
+                    <p>1</p>
+                </div>
             </div>
-        </div>
-        <div class="button-container">
-
-            <button id="start-btn">Start Quix</button>
+            <div class="question-area">
+                <p class="timer">
+                    --
+                </p>
+                <p class="ready">
+                    <span>Get Ready...</span>
+                </p>
+                <button class="btnn">Reveal Question</button>
+            </div>
         </div>
     </div>
+
+    <script>
+        let Category = null;
+        let Difficulty = null;
+        let QuestionCount = null;
+
+        const categoryButtons = document.querySelectorAll('.category-options .btn');
+
+        const questionInput = document.getElementById('custom-q-input');
+
+        const startButton = document.getElementById('start-btn');
+
+        const form = document.querySelector('.form');
+
+        const quiz = document.querySelector('.quiz');
+
+        const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
+
+        categoryButtons.forEach(button => {
+            button.addEventListener('click', () => {
+
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+
+                button.classList.add('active');
+                Category = button.dataset.category.toLowerCase();
+            });
+        });
+
+        difficultyButtons.forEach(button => {
+            button.addEventListener('click', ()=>{
+                difficultyButtons.forEach(btn => 
+                    btn.classList.remove('active')
+                )
+                button.classList.add('active');
+                Difficulty= button.dataset.difficulty;
+            });
+        });
+
+        questionInput.addEventListener('input',()=>{
+            QuestionCount= questionInput.value;
+        });
+
+        startButton.addEventListener('click', ()=>{
+            if(!Category || !Difficulty || !QuestionCount){
+                alert("Please select a category, difficulty, and enter the number of questions.");
+            }
+            else{
+                form.remove();
+                quiz.style.display = 'block';
+            }
+        })
+
+
+        let allquestions = []
+    </script>
 </body>
 </html>
