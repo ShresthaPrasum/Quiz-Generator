@@ -147,6 +147,7 @@
         <div class="form">    
             <form action="" id="form">   
             <h1>Quix Setup</h1>
+            <form id="mainform" action="/save">
             <div class="category">
                 <h2>Select a Category</h2>
             
@@ -179,8 +180,9 @@
             </div>
             <div class="button-container">
 
-                <button id="start-btn" id="submit" type="submit">Start Quix</button>
+                <button id="start-btn" id="submitbtnnn" type="submit">Start Quix</button>
             </div>
+            </form>
         </div>
 
         <div class="quiz">
@@ -291,8 +293,8 @@
         const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
 
         categoryButtons.forEach(button => {
-            button.addEventListener('click', () => {
-
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
                 categoryButtons.forEach(btn => btn.classList.remove('active'));
 
                 button.classList.add('active');
@@ -301,7 +303,8 @@
         });
 
         difficultyButtons.forEach(button => {
-            button.addEventListener('click', ()=>{
+            button.addEventListener('click', (e)=>{
+                e.preventDefault();
                 difficultyButtons.forEach(btn => 
                     btn.classList.remove('active')
                 )
@@ -323,9 +326,9 @@
                 quiz.style.display = 'block';
             }
         })
-        
-        const submitbtn = document.querySelector('#submit');
-        submitbtn.addEventListener('submit', (e)=>{
+
+        const mainform = document.querySelector('#mainform');
+        mainform.addEventListener('click', (e)=>{
             e.preventDefault();
             
             console.log(Category);
