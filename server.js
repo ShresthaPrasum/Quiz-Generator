@@ -14,7 +14,10 @@ const parsed_data = JSON.parse(data);
 app.post('/save',(req,res)=>{
     const limit = req.body.limit;
     const diff = req.body.diff;
-    const category = req.body.category;
+    let category = req.body.category;
+    if(category.toLowerCase() == "iq" || category.toLowerCase() == "mix"){
+        category = "iq logic";
+    }
     const selected_questions = parsed_data.filter(p=>p.category==category);
     const selected_questions1 = selected_questions.filter(s=>s.difficulty===diff);
     const selected_questions2 = selected_questions1.sort(()=>Math.random()-0.5).slice(0, limit);
