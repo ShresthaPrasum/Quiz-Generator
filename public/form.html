@@ -145,38 +145,40 @@
 <body>
     <div class="container">
         <div class="form">    
-            <form action="" id="form">   
+            <form action="/save" method="post" id="form">   
             <h1>Quix Setup</h1>
             <form id="mainform" action="/save">
             <div class="category">
                 <h2>Select a Category</h2>
             
                 <div class="category-options">
-                    <button class="btn setup-btn" data-category="Mix">Mix</button>
-                    <button class="btn setup-btn" data-category="IQ">IQ</button>
-                    <button class="btn setup-btn" data-category="Science">Science</button>
-                    <button class="btn setup-btn" data-category="Math">Math</button>
-                    <button class="btn setup-btn" data-category="Programming">Programming</button>
-                    <button class="btn setup-btn" data-category="Sports">Sports</button>
-                    <button class="btn setup-btn" data-category="Astronomy">Astronomy</button>
-                    <button class="btn setup-btn" data-category="Geography">Geography</button>
-                    <button class="btn setup-btn" data-category="History">History</button>
+                    <button type="button" class="btn setup-btn" data-category="Mix">Mix</button>
+                    <button type="button" class="btn setup-btn" data-category="IQ">IQ</button>
+                    <button type="button" class="btn setup-btn" data-category="Science">Science</button>
+                    <button type="button" class="btn setup-btn" data-category="Math">Math</button>
+                    <button type="button" class="btn setup-btn" data-category="Programming">Programming</button>
+                    <button type="button" class="btn setup-btn" data-category="Sports">Sports</button>
+                    <button type="button" class="btn setup-btn" data-category="Astronomy">Astronomy</button>
+                    <button type="button" class="btn setup-btn" data-category="Geography">Geography</button>
+                    <button type="button" class="btn setup-btn" data-category="History">History</button>
                 </div>
+                <input type="hidden" name="category" id="category"> 
             </div>
             <div class="qn-number">
                 <h2>Enter the number of Questions</h2>
-                <input type="number" id="custom-q-input" placeholder="Custom" min="1" max="139" class="setup-btn">
-
+                <input type="number" id="custom-q-input" placeholder="Custom" min="1" max="30" class="setup-btn">
+                <input type="hidden" name="qn-number" id="qn-number">
             </div>
 
             <div class="difficulty">
                 <h2>Choose Difficulty</h2>
                 <div class="difficulty-options">
-                    <button class="btn setup-btn" data-difficulty="easy">Easy</button>
-                    <button class="btn setup-btn" data-difficulty="moderate">Moderate</button>
-                    <button class="btn setup-btn" data-difficulty="hard">Hard</button>
-                    <button class="btn setup-btn" data-difficulty="extreme">Extreme</button>
+                    <button type="button" class="btn setup-btn" data-difficulty="easy">Easy</button>
+                    <button type="button" class="btn setup-btn" data-difficulty="moderate">Moderate</button>
+                    <button type="button" class="btn setup-btn" data-difficulty="hard">Hard</button>
+                    <button type="button" class="btn setup-btn" data-difficulty="extreme">Extreme</button>
                 </div>
+                <input type="hidden" name="difficulty" id="difficulty">
             </div>
             <div class="button-container">
 
@@ -275,10 +277,13 @@
     </div>
     <script src="script.js"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+            
         let Category = null;
         let Difficulty = null;
         let QuestionCount = null;
         let allquestions = [];
+        const mainform = document.querySelector('form');
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
 
@@ -317,27 +322,18 @@
             QuestionCount= questionInput.value;
         });
 
-        startButton.addEventListener('click', ()=>{
-            if(!Category || !Difficulty || !QuestionCount){
-                alert("Please select a category, difficulty, and enter the number of questions.");
-            }
-            else{
-                form.remove();
-                quiz.style.display = 'block';
-            }
-        })
-
-        const mainform = document.querySelector('#mainform');
-        mainform.addEventListener('click', (e)=>{
+        mainform.addEventListener('submit', (e)=>{
             e.preventDefault();
-            
-            console.log(Category);
+        if(!Category || !Difficulty || !QuestionCount){
+            alert("Please select valid category, difficulty and the number of questions!")
+        }            
+        console.log(Category);
             console.log(Difficulty);
             console.log(QuestionCount);
             fetch('/save', {
-                method: POST,
+                method: 'POST',
                 headers: {'Content-type': 'application/json'},
-                'body': JSON.stringify({
+                body: JSON.stringify({
                     category: Category,
                     diff: Difficulty,
                     limit: QuestionCount
@@ -347,12 +343,11 @@
             .then(result=>{
                 if(result.success){
                     allquestions = result.questions;
-                    console.log(result.random);
+                    console.log(`The random fun num from backend is ${result.random}`);
                 }
             })
+    })
         })
-    
-
         
     </script>
 </body>
