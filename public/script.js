@@ -1,2 +1,2 @@
-const a = "abc";
-const b = a.toLowerCase
+const h = "abc";
+const j = h.toLowerCase

@@ -280,6 +280,8 @@
     </div>
     <script src="script.js"></script>
     <script>
+            
+
         document.addEventListener('DOMContentLoaded', ()=>{
             
         let Category = null;
@@ -350,10 +352,32 @@
                     console.log(allquestions);
                     document.getElementById('container1').style.display = "none";
                     document.getElementById('quiz').style.display="block";
+                    const qns = document.querySelectorAll('.qn');
+            for(let i=0; i<allquestions.length; i++){
+                // const questions1 = allquestions.question;
+                const format = `
+                <p>
+                    ${i+1}. ${allquestions[i].question}
+                </p>     
+                `;
+                qns[i].innerHTML = format;
+                console.log(qns[i].innerHTML);
+            }
+            qns.forEach(qn=>{
+                qn.addEventListener('click', (e)=>{
+                    e.preventDefault();
+                    qns.forEach(q=>{
+                        q.classList.remove('active');
+                    })
+                    qn.classList.add('active');
+
+                })
+            })
                 }
             })
     })
         })
+        
     </script>
 </body>
 </html>
