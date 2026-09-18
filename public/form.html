@@ -101,7 +101,7 @@
             border-radius: 15px;
             margin: 5px;
             aspect-ratio: 1/1;
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
             cursor: pointer;
@@ -275,7 +275,7 @@
                     --
                 </p>
                 <p class="ready">
-                    <span>Get Ready...</span>
+                    <span id="display">Get Ready...</span>
                 </p>
                 <button class="btnn" id="reveal">Reveal Question</button>
             </div>
@@ -293,6 +293,9 @@
         let QuestionCount = null;
         let allquestions = [];
         let questionss = [];
+        let format_store = [];
+        let qni = [];
+        let qnnum = null;
         const mainform = document.querySelector('form');
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
@@ -308,6 +311,7 @@
         const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
         const ps = document.querySelectorAll('.ps');
         const revealbtn = document.getElementById('reveal');
+        const display = document.getElementById('display');
 
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
@@ -361,16 +365,30 @@
                     document.getElementById('container1').style.display = "none";
                     document.getElementById('quiz').style.display="block";
                     const qns = document.querySelectorAll('.qn');
+                    
+                    qns.forEach((qn,index)=>{
+                        qn.setAttribute('data-number', index+1);
+                    })
+                    console.log(document.querySelector('[data-number="1"]'))
             for(let i=0; i<allquestions.length; i++){
                 const format = `
                 <p class="ps">
                     ${i+1}. ${allquestions[i].question}
                 </p>     
                 `;
-                qns[i].innerHTML = format;
-                console.log(qns[i].innerHTML); 
+                format_store[i] = format;
+                
+                console.log(format_store[i]); 
 
             }
+            const qnnum1 = allquestions.length;
+            console.log(qnnum1)
+                   const displayboxes =  Array.from(qns).slice(0,qnnum1);
+                   console.log(displayboxes);
+                   for(i=0;i<allquestions.length;i++){
+                   displayboxes[i].style.display= 'flex';
+                   }
+                
             qns.forEach(qn=>{
                 qn.addEventListener('click', (e)=>{
                     e.preventDefault();
@@ -378,22 +396,29 @@
                         q.classList.remove('activee');
                     })
                     qn.classList.add('activee');
+                    qnnum = qn.dataset.number;
                 })
             })
 
-                    const active_question = document.querySelector('.activee');
             revealbtn.addEventListener('click', (e)=>{
+                const active_question = document.querySelector('.activee');
                 if(!active_question){
                     alert("Please select a question!");
                     return;
                 }
                 const selected_question = active_question.innerText;
                 console.log(selected_question);
+                console.log(allquestions[qnnum-1]);
+                qni = allquestions[qnnum-1];
+                display.innerHTML = qni.question;
+
+
             })
                 }
             })
     })
         })
+
         
     </script>
 </body>
