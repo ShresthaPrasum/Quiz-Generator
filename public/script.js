@@ -1,6 +1,7 @@
 
 document.addEventListener('DOMContentLoaded',()=>{
     const form = document.getElementById('form');
+    let data = [];
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
         formdata = new FormData(form);
@@ -24,7 +25,12 @@ document.addEventListener('DOMContentLoaded',()=>{
         })
         .then(response=>response.json())
         .then(result=>{
+            if(result.success){
+                console.log('SUCCESSFULLLLL');
+                data = result.data;
+                
 
+            }
         })
     })
 })

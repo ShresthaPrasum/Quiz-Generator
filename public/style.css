@@ -69,7 +69,7 @@ form{
     margin-top: 20px;
 }
 #generate button{
-    background-color: beige;
+    background-color: rgb(62, 46, 46);
     width: 65px;
     height: 25px;
     margin-top: 20px;
@@ -83,10 +83,78 @@ input[type='number']{
     margin-bottom: 15px;
     height: 25px;
 }
-#result{
-    display: none;
-}
 #ll{
     margin-top: 4px;
     margin-bottom: 60px;
+}
+/* #container{
+    display: none;
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#don-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    display: none;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51,51,51);
+    width: 900px;
+    height: 600px;
+    margin: 0;
+    border-radius: 10px;
+    z-index: 6;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 13, 13);
+    margin-top: 50px;
+    cursor: pointer;
+}
+button{
+    width: 90px;
+    height: 25px;
+    margin-top: 15px;
+}
+#clues{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 7;
+    border-radius: 10px;
+}
+#clues h2{
+    margin-bottom: 10px;
+}
+#clues button{
+    background-color: rgb(62,46,46);
+    color: white;
 }

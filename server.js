@@ -10,9 +10,6 @@ const parsed_data = JSON.parse(data);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-app.get('/', (req,res)=>{
-    res.send("HELLOO");
-})
 app.post('/save', (req,res)=>{
     const name = req.body.name;
     const limit = req.body.limit;
@@ -20,6 +17,10 @@ app.post('/save', (req,res)=>{
     const select1 = parsed_data.filter(p=> p.difficulty = diff.toLowerCase());
     const select2 = select1.sort(()=> Math.random() - 0.5).slice(0,limit);
     console.log(select2);
+    res.json({
+        success: true,
+        data: select2,
+    });
 });
 
 app.listen(port, ()=>{
