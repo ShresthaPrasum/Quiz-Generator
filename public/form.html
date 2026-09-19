@@ -149,6 +149,9 @@
             border-color: white;
             background-color: black;
         }
+        #reveal-ans{
+            display: none;
+        }
         .answer-container{
             position: fixed;
             top: 0;
@@ -178,7 +181,7 @@
             color: rgb(255, 242, 0);
             font-weight: 700;
             line-height: 1.5;
-            margin: 1em;
+            margin-bottom: 20px;
         }
         
         #close-answer{
@@ -190,7 +193,7 @@
             border: none;
             border-radius: 50px;
             cursor: pointer;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
 
         }
 
@@ -295,9 +298,6 @@
                     <p class="ps">13</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">13</p>
-                </div>
-                <div class="qn">
                     <p class="ps">14</p>
                 </div>
                 <div class="qn">
@@ -326,6 +326,42 @@
                 </div>
                 <div class="qn">
                     <p class="ps">23</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">24</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">25</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">26</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">27</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">28</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">29</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">30</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">31</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">32</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">33</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">34</p>
+                </div>
+                <div class="qn">
+                    <p class="ps">35</p>
                 </div>
             </div>
             <div class="question-area">
@@ -475,6 +511,7 @@
                     if(qn.classList.contains('selected')){
                         return;
                     }
+                    qn.style.cursor = "not-allowed";
                     qn.classList.add('selected');
                     qn.classList.add('current-question');
                     questionoptions.style.opacity = 0.5;
@@ -511,6 +548,7 @@
                 qni = allquestions[qnnum-1];
                 display.innerHTML = qni.question;
                 revealbtn.style.display = "none";
+                revealanswerbtn.style.display = "block";
             })
 
             revealanswerbtn.addEventListener('click', (e)=>{
@@ -519,9 +557,22 @@
                 answercontainer.style.visibility = "visible";
                 answerdisplay.innerHTML = qni.answer;
             })
-            }
-        })
+
+            answerclosebtn.addEventListener('click', (e)=>{
+                const active_question = document.querySelector('.current-question');
+                answercontainer.style.opacity = 0;
+                answercontainer.style.visibility = "hidden";
+                revealanswerbtn.style.display = "none";
+                revealbtn.style.display = "block";
+                active_question.classList.remove('current-question');
+                questionoptions.style.opacity = 1;
+                questionoptions.style.pointerEvents = 'auto';
+                display.innerHTML = "Get Ready...";
+                questionarea.style.display = "none";
+            })
+        }
     })
+})
 })
 
         
