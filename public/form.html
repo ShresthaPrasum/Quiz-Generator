@@ -152,9 +152,8 @@
 <body>
     <div class="container" id="container">
         <div class="form" id="container1">
-            <form action="/save" method="post" id="form">   
+            <form action="/save" method="post" id="mainform">
             <h1>Quix Setup</h1>
-            <form id="mainform" action="/save">
             <div class="category">
                 <h2>Select a Category</h2>
             
@@ -280,120 +279,148 @@
                 <button class="btnn" id="reveal">Reveal Question</button>
             </div>
         </div>
-        </form>
     </div>
     <script src="script.js"></script>
     <script>
             
+        document.addEventListener('DOMContentLoaded', () => {
+            let category = null;
 
-        document.addEventListener('DOMContentLoaded', ()=>{
-            
-        let Category = null;
-        let Difficulty = null;
-        let QuestionCount = null;
-        let allquestions = [];
-        let questionss = [];
-        const mainform = document.querySelector('form');
+            let difficulty = null;
 
-        const categoryButtons = document.querySelectorAll('.category-options .btn');
+            let allQuestions = [];
 
-        const questionInput = document.getElementById('custom-q-input');
+            const mainForm = document.querySelector('form');
 
-        const startButton = document.getElementById('start-btn');
+            const categoryButtons = document.querySelectorAll('.category-options .btn');
 
-        const form = document.querySelector('.form');
+            const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
 
-        const quiz = document.querySelector('.quiz');
+            const questionInput = document.getElementById('custom-q-input');
+            const revealBtn = document.getElementById('reveal');
 
-        const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
-        const ps = document.querySelectorAll('.ps');
-        const revealbtn = document.getElementById('reveal');
+            const container1 = document.getElementById('container1');
+            const quizContainer = document.getElementById('quiz');
 
-        categoryButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                categoryButtons.forEach(btn => btn.classList.remove('active'));
 
-                button.classList.add('active');
-                Category = button.dataset.category.toLowerCase();
-            });
-        });
-
-        difficultyButtons.forEach(button => {
-            button.addEventListener('click', (e)=>{
-                e.preventDefault();
-                difficultyButtons.forEach(btn => 
-                    btn.classList.remove('active')
-                )
-                button.classList.add('active');
-                Difficulty= button.dataset.difficulty;
-            });
-        });
-
-        questionInput.addEventListener('input',()=>{
-            QuestionCount= questionInput.value;
-        });
-
-        mainform.addEventListener('submit', (e)=>{
-            e.preventDefault();
-        if(!Category || !Difficulty || !QuestionCount){
-            alert("Please select valid category, difficulty and the number of questions!")
-            return;
-        }            
-        console.log(Category);
-            console.log(Difficulty);
-            console.log(QuestionCount);
-            fetch('/save', {
-                method: 'POST',
-                headers: {'Content-type': 'application/json'},
-                body: JSON.stringify({
-                    category: Category,
-                    diff: Difficulty,
-                    limit: QuestionCount
-                })
-            })
-            .then(response=> response.json())
-            .then(result=>{
-                if(result.success){
-                    allquestions = result.questions;
-                    console.log(`The random fun num from backend is ${result.random}`);
-                    console.log(allquestions);
-                    document.getElementById('container1').style.display = "none";
-                    document.getElementById('quiz').style.display="block";
-                    const qns = document.querySelectorAll('.qn');
-            for(let i=0; i<allquestions.length; i++){
-                const format = `
-                <p class="ps">
-                    ${i+1}. ${allquestions[i].question}
-                </p>     
-                `;
-                qns[i].innerHTML = format;
-                console.log(qns[i].innerHTML); 
-
-            }
-            qns.forEach(qn=>{
-                qn.addEventListener('click', (e)=>{
+            // Category selection
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
                     e.preventDefault();
-                    qns.forEach(q=>{
-                        q.classList.remove('activee');
-                    })
-                    qn.classList.add('activee');
-                })
-            })
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
 
-                    const active_question = document.querySelector('.activee');
-            revealbtn.addEventListener('click', (e)=>{
-                if(!active_question){
-                    alert("Please select a question!");
+                    button.classList.add('active');
+                    category = button.dataset.category ? button.dataset.category.toLowerCase() : null;
+                });
+            });
+
+            // Difficulty selection
+            difficultyButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    difficultyButtons.forEach(btn => btn.classList.remove('active'));
+
+                    button.classList.add('active');
+
+                    difficulty = button.dataset.difficulty;
+                });
+            });
+
+            // Form Submission
+            mainForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const questionCount = parseInt(questionInput.value, 10);
+
+                if (!category || !difficulty || !questionCount || questionCount <= 0) {
+
+                    alert("Please select a valid category, difficulty, and number of questions!");
+
                     return;
                 }
-                const selected_question = active_question.innerText;
-                console.log(selected_question);
-            })
+
+                fetch('/save', {
+                    method: 'POST',
+                    headers: { 'Content-type': 'application/json' },
+                    body: JSON.stringify({
+                        category: category,
+                        diff: difficulty,
+                        limit: questionCount
+                    })
+                })
+                .then(async response => {
+                    const responseText = await response.text();
+                    let result;
+
+                    try {
+                        result = responseText ? JSON.parse(responseText) : null;
+                    } catch {
+                        throw new Error(`Server returned invalid JSON (HTTP ${response.status}).`);
+                    }
+
+                    if (!response.ok) {
+                        throw new Error(result?.error || `Request failed (HTTP ${response.status}).`);
+                    }
+
+                    return result;
+                })
+                .then(result => {
+                    if (result.success) {
+                        allQuestions = result.questions;
+                        container1.style.display = "none";
+                        quizContainer.style.display = "block";
+
+                        renderQuestions(allQuestions);
+                    } else {
+                        alert("Failed to fetch questions from the server.");
+                    }
+                })
+                .catch(err => {
+                    console.error("Fetch error:", err);
+                    alert(`${err.message} Open the quiz through http://localhost:5000.`);
+                });
+            });
+
+            function renderQuestions(questions) {
+                let listContainer = document.getElementById('questions-list');
+                
+                if (!listContainer) {
+                    listContainer = document.createElement('div');
+                    listContainer.id = 'questions-list';
+                    quizContainer.insertBefore(listContainer, revealBtn);
                 }
-            })
-    })
-        })
+                
+                listContainer.innerHTML = '';
+
+                questions.forEach((qData, index) => {
+                    const qnDiv = document.createElement('div');
+                    qnDiv.classList.add('qn');
+                    qnDiv.innerHTML = `<p class="ps">${index + 1}. ${qData.question}</p>`;
+
+                    // Selection toggle
+                    qnDiv.addEventListener('click', () => {
+                        document.querySelectorAll('.qn').forEach(q => q.classList.remove('activee'));
+                        qnDiv.classList.add('activee');
+                    });
+
+                    listContainer.appendChild(qnDiv);
+                });
+            }
+
+   
+            if (revealBtn) {
+                revealBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const activeQuestion = document.querySelector('.qn.activee');
+                    
+                    if (!activeQuestion) {
+                        alert("Please select a question!");
+                        return;
+                    }
+
+                    console.log("Selected Question:", activeQuestion.innerText);
+                });
+            }
+        });
         
     </script>
 </body>
