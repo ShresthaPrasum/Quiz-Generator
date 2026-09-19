@@ -101,7 +101,7 @@
             border-radius: 15px;
             margin: 5px;
             aspect-ratio: 1/1;
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
             cursor: pointer;
@@ -274,7 +274,7 @@
                     --
                 </p>
                 <p class="ready">
-                    <span>Get Ready...</span>
+                    <span id="display">Get Ready...</span>
                 </p>
                 <button class="btnn" id="reveal">Reveal Question</button>
             </div>
@@ -283,14 +283,15 @@
     <script src="script.js"></script>
     <script>
             
-        document.addEventListener('DOMContentLoaded', () => {
-            let category = null;
 
-            let difficulty = null;
-
-            let allQuestions = [];
-
-            const mainForm = document.querySelector('form');
+        document.addEventListener('DOMContentLoaded', ()=>{
+            
+        let Category = null;
+        let Difficulty = null;
+        let QuestionCount = null;
+        let allquestions = [];
+        let questionss = [];
+        const mainform = document.querySelector('form');
 
             const categoryButtons = document.querySelectorAll('.category-options .btn');
 
@@ -303,11 +304,14 @@
             const quizContainer = document.getElementById('quiz');
 
 
-            // Category selection
-            categoryButtons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+        const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
+        const ps = document.querySelectorAll('.ps');
+        const revealbtn = document.getElementById('reveal');
+
+        categoryButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
 
                     button.classList.add('active');
                     category = button.dataset.category ? button.dataset.category.toLowerCase() : null;
@@ -326,101 +330,70 @@
                 });
             });
 
-            // Form Submission
-            mainForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                const questionCount = parseInt(questionInput.value, 10);
+        questionInput.addEventListener('input',()=>{
+            QuestionCount= questionInput.value;
+        });
 
-                if (!category || !difficulty || !questionCount || questionCount <= 0) {
+        mainform.addEventListener('submit', (e)=>{
+            e.preventDefault();
+        if(!Category || !Difficulty || !QuestionCount){
+            alert("Please select valid category, difficulty and the number of questions!")
+            return;
+        }            
+        console.log(Category);
+            console.log(Difficulty);
+            console.log(QuestionCount);
+            fetch('/save', {
+                method: 'POST',
+                headers: {'Content-type': 'application/json'},
+                body: JSON.stringify({
+                    category: Category,
+                    diff: Difficulty,
+                    limit: QuestionCount
+                })
+            })
+            .then(response=> response.json())
+            .then(result=>{
+                if(result.success){
+                    allquestions = result.questions;
+                    console.log(`The random fun num from backend is ${result.random}`);
+                    console.log(allquestions);
+                    document.getElementById('container1').style.display = "none";
+                    document.getElementById('quiz').style.display="block";
+                    const qns = document.querySelectorAll('.qn');
+            for(let i=0; i<allquestions.length; i++){
+                const format = `
+                <p class="ps">
+                    ${i+1}. ${allquestions[i].question}
+                </p>     
+                `;
+                qns[i].innerHTML = format;
+                console.log(qns[i].innerHTML); 
 
-                    alert("Please select a valid category, difficulty, and number of questions!");
+            }
+            qns.forEach(qn=>{
+                qn.addEventListener('click', (e)=>{
+                    e.preventDefault();
+                    qns.forEach(q=>{
+                        q.classList.remove('activee');
+                    })
+                    qn.classList.add('activee');
+                })
+            })
 
+                    const active_question = document.querySelector('.activee');
+            revealbtn.addEventListener('click', (e)=>{
+                if(!active_question){
+                    alert("Please select a question!");
                     return;
                 }
-
-                fetch('/save', {
-                    method: 'POST',
-                    headers: { 'Content-type': 'application/json' },
-                    body: JSON.stringify({
-                        category: category,
-                        diff: difficulty,
-                        limit: questionCount
-                    })
-                })
-                .then(async response => {
-                    const responseText = await response.text();
-                    let result;
-
-                    try {
-                        result = responseText ? JSON.parse(responseText) : null;
-                    } catch {
-                        throw new Error(`Server returned invalid JSON (HTTP ${response.status}).`);
-                    }
-
-                    if (!response.ok) {
-                        throw new Error(result?.error || `Request failed (HTTP ${response.status}).`);
-                    }
-
-                    return result;
-                })
-                .then(result => {
-                    if (result.success) {
-                        allQuestions = result.questions;
-                        container1.style.display = "none";
-                        quizContainer.style.display = "block";
-
-                        renderQuestions(allQuestions);
-                    } else {
-                        alert("Failed to fetch questions from the server.");
-                    }
-                })
-                .catch(err => {
-                    console.error("Fetch error:", err);
-                    alert(`${err.message} Open the quiz through http://localhost:5000.`);
-                });
-            });
-
-            function renderQuestions(questions) {
-                let listContainer = document.getElementById('questions-list');
-                
-                if (!listContainer) {
-                    listContainer = document.createElement('div');
-                    listContainer.id = 'questions-list';
-                    quizContainer.insertBefore(listContainer, revealBtn);
+                const selected_question = active_question.innerText;
+                console.log(selected_question);
+            })
                 }
-                
-                listContainer.innerHTML = '';
-
-                questions.forEach((qData, index) => {
-                    const qnDiv = document.createElement('div');
-                    qnDiv.classList.add('qn');
-                    qnDiv.innerHTML = `<p class="ps">${index + 1}. ${qData.question}</p>`;
-
-                    // Selection toggle
-                    qnDiv.addEventListener('click', () => {
-                        document.querySelectorAll('.qn').forEach(q => q.classList.remove('activee'));
-                        qnDiv.classList.add('activee');
-                    });
-
-                    listContainer.appendChild(qnDiv);
-                });
-            }
-
-   
-            if (revealBtn) {
-                revealBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const activeQuestion = document.querySelector('.qn.activee');
-                    
-                    if (!activeQuestion) {
-                        alert("Please select a question!");
-                        return;
-                    }
-
-                    console.log("Selected Question:", activeQuestion.innerText);
-                });
-            }
-        });
+            })
+    })
+        })
         
     </script>
 </body>
