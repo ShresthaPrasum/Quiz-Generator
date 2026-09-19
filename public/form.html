@@ -112,7 +112,7 @@
             align-items: center;
         }
         .question-area{
-            display: flex;
+            display: none;
             flex-direction: column;
             align-items: center;
             margin-top: 20px;
@@ -144,9 +144,67 @@
             cursor: pointer;
             margin-bottom: 40px;
         }
-        /* .hidden{
-            display: none !important;
-        } */
+        .selected{
+            opacity: 0.4;
+            border-color: white;
+            background-color: black;
+        }
+        .answer-container{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 100;
+        }
+
+        .answer-container h2{
+            font-size: 3rem;
+            font-weight: bold;
+            color: #00e1ff;
+            font-family: "Bubblegum Sans", cursive;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #answer-display{
+            font-size  : 2rem;
+            color: rgb(255, 242, 0);
+            font-weight: 700;
+            line-height: 1.5;
+            margin: 1em;
+        }
+        
+        #close-answer{
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000;
+            background-color: #ff2b2b;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+        }
+
+        .answer-area{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #4a00e0, #8e2de2);
+            max-width: 90%;
+            width: 600px;
+            padding: 20px;
+            border-radius: 20px;
+            border: 2px solid #ffdd00;
+        }
     </style>
 </head>
 <body>
@@ -201,73 +259,73 @@
                     <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">2</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">3</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">4</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">5</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">6</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">7</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">8</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">9</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">10</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">11</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">12</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">13</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">13</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">14</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">15</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">16</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">17</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">18</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">19</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">20</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">21</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">22</p>
                 </div>
                 <div class="qn">
-                    <p class="ps">1</p>
+                    <p class="ps">23</p>
                 </div>
             </div>
             <div class="question-area">
@@ -278,9 +336,19 @@
                     <span id="display">Get Ready...</span>
                 </p>
                 <button class="btnn" id="reveal">Reveal Question</button>
+                <button class="btnn" id="reveal-ans">Reveal Answer</button>
             </div>
         </div>
         </form>
+    </div>
+    <div class="answer-container">
+        <div class="answer-area">
+            <h2>The Answer Is...</h2>
+            <p id="answer-display">
+
+            </p>
+            <button class="btnn" id="close-answer">Close</button>
+        </div>
     </div>
     <script src="script.js"></script>
     <script>
@@ -312,6 +380,18 @@
         const ps = document.querySelectorAll('.ps');
         const revealbtn = document.getElementById('reveal');
         const display = document.getElementById('display');
+
+        const questionarea= document.querySelector('.question-area');
+
+        const questionoptions = document.querySelector('.questions');
+
+        const revealanswerbtn = document.getElementById('reveal-ans');
+
+        const answercontainer = document.querySelector('.answer-container');
+
+        const answerdisplay = document.getElementById('answer-display');
+
+        const answerclosebtn = document.getElementById('close-answer');
 
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
@@ -383,41 +463,66 @@
             }
             const qnnum1 = allquestions.length;
             console.log(qnnum1)
-                   const displayboxes =  Array.from(qns).slice(0,qnnum1);
-                   console.log(displayboxes);
-                   for(i=0;i<allquestions.length;i++){
-                   displayboxes[i].style.display= 'flex';
-                   }
+            const displayboxes =  Array.from(qns).slice(0,qnnum1);
+            console.log(displayboxes);
+            for(i=0;i<allquestions.length;i++){
+            displayboxes[i].style.display= 'flex';
+            }
                 
             qns.forEach(qn=>{
                 qn.addEventListener('click', (e)=>{
                     e.preventDefault();
+                    if(qn.classList.contains('selected')){
+                        return;
+                    }
+                    qn.classList.add('selected');
+                    qn.classList.add('current-question');
+                    questionoptions.style.opacity = 0.5;
+                    questionoptions.style.pointerEvents = 'none';
+                    qn.classList.remove('activee');
                     qns.forEach(q=>{
                         q.classList.remove('activee');
                     })
                     qn.classList.add('activee');
+                    questionarea.style.display = "flex";
                     qnnum = qn.dataset.number;
+                })
+
+                qn.addEventListener('mouseenter', (e)=>{
+                    e.preventDefault();
+                    if(qn.classList.contains('selected')){
+                        return;
+                    }
+                    qn.classList.add('activee');
+                })
+                qn.addEventListener('mouseleave', (e)=>{
+                    e.preventDefault();
+                    qn.classList.remove('activee');
                 })
             })
 
             revealbtn.addEventListener('click', (e)=>{
-                const active_question = document.querySelector('.activee');
+                const active_question = document.querySelector('.current-question');
                 if(!active_question){
                     alert("Please select a question!");
                     return;
                 }
                 const selected_question = active_question.innerText;
-                console.log(selected_question);
-                console.log(allquestions[qnnum-1]);
                 qni = allquestions[qnnum-1];
                 display.innerHTML = qni.question;
-
-
+                revealbtn.style.display = "none";
             })
-                }
+
+            revealanswerbtn.addEventListener('click', (e)=>{
+                const active_question = document.querySelector('.current-question');
+                answercontainer.style.opacity = 1;
+                answercontainer.style.visibility = "visible";
+                answerdisplay.innerHTML = qni.answer;
             })
-    })
+            }
         })
+    })
+})
 
         
     </script>
