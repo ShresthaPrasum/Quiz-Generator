@@ -165,6 +165,17 @@
     </main>
     <script src="script.js"></script>
     <script>
+        const clicksound = new Audio('minecraft_click.mp3');
+
+        const buttons = document.querySelectorAll('.btn, a');
+
+        buttons.forEach(( button) => {
+            button.addEventListener('click', () => {
+                clicksound.currentTime = 0;
+                clicksound.play();
+            });
+        });
+
         const canvas = document.getElementById("particle-canvas");
         const ctx = canvas.getContext("2d");
         canvas.width = window.innerWidth;

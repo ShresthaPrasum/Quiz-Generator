@@ -125,7 +125,7 @@
         }
         .ready{
             font-size: 2rem;
-            margin-bottom: 20px;
+            margin: 20px;
 
         }
         .question-area .btnn{
@@ -203,10 +203,19 @@
             border-radius: 20px;
             border: 2px solid #ffdd00;
         }
+        .back a{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: rgb(255, 196, 0);
+        }
     </style>
 </head>
 <body>
     <div class="container" id="container">
+        <div class="back">
+            <a href="index.html">BACK</a>
+        </div>
         <div class="form" id="container1">
             <form action="/save" method="post" id="form">   
             <h1>Quix Setup</h1>
@@ -218,11 +227,10 @@
                     <button type="button" class="btn setup-btn" data-category="mix">Mix</button>
                     <button type="button" class="btn setup-btn" data-category="IQ">IQ</button>
                     <button type="button" class="btn setup-btn" data-category="Science">Science</button>
-                    <button type="button" class="btn setup-btn" data-category="Math">Math</button>
+                    <button type="button" class="btn setup-btn" data-category="Maths">Math</button>
                     <button type="button" class="btn setup-btn" data-category="Programming">Programming</button>
                     <button type="button" class="btn setup-btn" data-category="Sports">Sports</button>
                     <button type="button" class="btn setup-btn" data-category="Astronomy">Astronomy</button>
-                    <!-- <button type="button" class="btn setup-btn" data-category="Geography">Geography</button> -->
                     <button type="button" class="btn setup-btn" data-category="History">History</button>
                 </div>
                 <input type="hidden" name="category" id="category"> 
@@ -392,6 +400,9 @@
         let format_store = [];
         let qni = [];
         let qnnum = null;
+
+        const synth = window.speechSynthesis;
+
         const mainform = document.querySelector('form');
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
@@ -421,6 +432,17 @@
 
         const answerclosebtn = document.getElementById('close-answer');
 
+        const clicksound = new Audio('minecraft_click.mp3');
+
+        const buttons = document.querySelectorAll('.btn, .btnn, .qn, a, #custom-q-input,start-btn');
+
+        buttons.forEach(( button) => {
+            button.addEventListener('click', () => {
+                clicksound.currentTime = 0;
+                clicksound.play();
+            });
+        });
+
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -445,6 +467,19 @@
         questionInput.addEventListener('input',()=>{
             QuestionCount= questionInput.value;
         });
+
+        function readaloud(text){
+            if(synth.speaking){
+                synth.cancel();
+            }
+
+            utterance = new SpeechSynthesisUtterance(text);
+
+            utterance.lang = 'en-US';
+            utterance.rate = 1.2;
+
+            synth.speak(utterance);
+        }
 
         mainform.addEventListener('submit', (e)=>{
             e.preventDefault();
@@ -539,6 +574,7 @@
                 const selected_question = active_question.innerText;
                 qni = allquestions[qnnum-1];
                 display.innerHTML = qni.question;
+                readaloud(qni.question);
                 revealbtn.style.display = "none";
                 revealanswerbtn.style.display = "block";
             })
@@ -548,10 +584,12 @@
                 answercontainer.style.opacity = 1;
                 answercontainer.style.visibility = "visible";
                 answerdisplay.innerHTML = qni.answer;
+                readaloud("The answer is: " + qni.answer);
             })
 
             answerclosebtn.addEventListener('click', (e)=>{
                 const active_question = document.querySelector('.current-question');
+                
                 answercontainer.style.opacity = 0;
                 answercontainer.style.visibility = "hidden";
                 revealanswerbtn.style.display = "none";
