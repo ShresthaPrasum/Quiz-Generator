@@ -131,11 +131,13 @@ body{
     background-color: rgb(205, 13, 13);
     margin-top: 50px;
     cursor: pointer;
+    display: none;
 }
-button{
+#result button{
     width: 90px;
     height: 25px;
-    margin-top: 15px;
+    margin-top: 50px;
+
 }
 #clues{
     position: absolute;
@@ -150,6 +152,7 @@ button{
     padding: 20px;
     z-index: 7;
     border-radius: 10px;
+    display: none;
 }
 #clues h2{
     margin-bottom: 10px;
@@ -157,4 +160,24 @@ button{
 #clues button{
     background-color: rgb(62,46,46);
     color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.active{
+    border: 2px solid white;
+}
+#reveal_clue{
+    width: 95px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hide{
+    width: 80px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

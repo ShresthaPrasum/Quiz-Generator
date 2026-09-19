@@ -1,7 +1,6 @@
 
 document.addEventListener('DOMContentLoaded',()=>{
     const form = document.getElementById('form');
-    let data = [];
     form.addEventListener('submit', (e)=>{
         e.preventDefault();
         formdata = new FormData(form);
@@ -26,10 +25,31 @@ document.addEventListener('DOMContentLoaded',()=>{
         .then(response=>response.json())
         .then(result=>{
             if(result.success){
-                console.log('SUCCESSFULLLLL');
-                data = result.data;
-                
-
+                const dataa = result.data;
+                console.log(dataa);
+                const clue1 = dataa.map(item=>item.clue1);
+                const clue2 = dataa.map(item=>item.clue2);
+                const clue3 = dataa.map(item=>item.clue3);
+                document.getElementById('container').style.display = "none";
+                document.getElementById('don-container').style.display = "flex";
+                const todisplay = dataa.length;
+                const boxs = document.querySelectorAll('.box');
+                for(let i=0; i<todisplay;i++){
+                    boxs[i].style.display = "flex";
+                }
+                boxs.forEach(box=>{
+                    box.addEventListener('click',(e)=>{
+                        boxs.forEach(b=> b.classList.remove('active'));
+                        box.classList.add('active');
+                    })
+                })
+                const revealbtn = document.getElementById('revealll');
+                revealbtn.addEventListener('click', ()=>{
+                    const selected_box = document.querySelector('.active');
+                    const s1 = selected_box.dataset.number;
+                    document.getElementById('clues').style.display="flex";
+                    console.log(dataa[s1-1]);
+                })
             }
         })
     })
