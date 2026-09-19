@@ -87,6 +87,10 @@
             transform: scale(1.1);
             box-shadow: 0 0 10px #00e1ff;
         }
+         .activee{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #00e1ff;
+        }
         .questions{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
@@ -193,76 +197,76 @@
             <h2>Pick A Question!</h2>
             <div class="questions">
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
                 <div class="qn">
-                    <p>1</p>
+                    <p class="ps">1</p>
                 </div>
             </div>
             <div class="question-area">
@@ -272,7 +276,7 @@
                 <p class="ready">
                     <span id="display">Get Ready...</span>
                 </p>
-                <button class="btnn">Reveal Question</button>
+                <button class="btnn" id="reveal">Reveal Question</button>
             </div>
         </div>
     </div>
@@ -286,6 +290,7 @@
         let Difficulty = null;
         let QuestionCount = null;
         let allquestions = [];
+        let questionss = [];
         const mainform = document.querySelector('form');
 
             const categoryButtons = document.querySelectorAll('.category-options .btn');
@@ -300,6 +305,8 @@
 
 
         const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
+        const ps = document.querySelectorAll('.ps');
+        const revealbtn = document.getElementById('reveal');
 
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
@@ -331,6 +338,7 @@
             e.preventDefault();
         if(!Category || !Difficulty || !QuestionCount){
             alert("Please select valid category, difficulty and the number of questions!")
+            return;
         }            
         console.log(Category);
             console.log(Difficulty);
@@ -354,24 +362,33 @@
                     document.getElementById('quiz').style.display="block";
                     const qns = document.querySelectorAll('.qn');
             for(let i=0; i<allquestions.length; i++){
-                // const questions1 = allquestions.question;
                 const format = `
-                <p>
+                <p class="ps">
                     ${i+1}. ${allquestions[i].question}
                 </p>     
                 `;
                 qns[i].innerHTML = format;
-                console.log(qns[i].innerHTML);
+                console.log(qns[i].innerHTML); 
+
             }
             qns.forEach(qn=>{
                 qn.addEventListener('click', (e)=>{
                     e.preventDefault();
                     qns.forEach(q=>{
-                        q.classList.remove('active');
+                        q.classList.remove('activee');
                     })
-                    qn.classList.add('active');
-
+                    qn.classList.add('activee');
                 })
+            })
+
+                    const active_question = document.querySelector('.activee');
+            revealbtn.addEventListener('click', (e)=>{
+                if(!active_question){
+                    alert("Please select a question!");
+                    return;
+                }
+                const selected_question = active_question.innerText;
+                console.log(selected_question);
             })
                 }
             })
