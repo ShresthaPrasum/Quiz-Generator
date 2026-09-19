@@ -180,7 +180,7 @@
         }
         
         #close-answer{
-            padding: 10px 20px;
+            padding: 15px 20px;
             font-size: 1.5rem;
             font-weight: bold;
             color: #000;
@@ -198,7 +198,7 @@
             align-items: center;
             background: linear-gradient(135deg, #4a00e0, #8e2de2);
             max-width: 90%;
-            width: 1000px;
+            width: 600px;
             padding: 20px;
             border-radius: 20px;
             border: 2px solid #ffdd00;
@@ -209,7 +209,121 @@
             left: 20px;
             color: rgb(255, 196, 0);
         }
+        .score-board {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
 
+        .score{
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            gap: 5px;
+        }
+        #score-a{
+            background-color: #e00000;
+        }
+        #score-b{
+            background-color: #2d7ce2;
+        }
+        #score-a1{
+            background-color: #e00000;
+            margin-bottom: 10px;
+        }
+        #score-b1{
+            background-color: #2d7ce2;
+            margin-bottom: 10px;
+        }
+        .highlight-turn{
+            scale: 1.1;
+            box-shadow: 0 0 10px #fff;
+        }
+        #correct-answer, #wrong-answer{
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #a32bff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
+        .answer-check{
+            display: flex;
+            justify-content: center;
+            gap: 20px;;
+        }
+
+        #correct-answer{
+            background-color: #00e100;
+        }
+        #wrong-answer{
+            background-color:#E00000;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            color: #ffb100;
+            margin: 15px;
+            font-family: "Bubblegum Sans", cursive;
+            font-weight: bold;
+            text-align: center;
+        }
+        .winner-container{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 100;
+        }
+
+        .winner-area{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #4a00e0, #8e2de2);
+            max-width: 90%;
+            width:1000px;
+            padding: 20px;
+            border-radius: 20px;
+            border: 2px solid #ffdd00;
+        }
+
+        .winner-area h1{
+            font-family: "Bubblegum Sans", cursive;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            font-size: 4.5rem;
+            color: rgb(255, 196, 0);
+            text-align: center;
+        }
+
+        .winner-area a{
+            padding: 15px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000;
+            background-color: #11b8ff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        
     </style>
 </head>
 <body>
@@ -260,7 +374,19 @@
         </div>
 
         <div class="quiz" id="quiz" class="hidden">
-            <h2>Pick A Question!</h2>
+
+            <div class="score-board">
+
+                <div id="score-a" class="score highlight-turn">
+                    <span class="team-name" id="team-name-a" contenteditable="true" data-team="A">Team A</span>: <span id="score-val-a">0</span>  
+                </div>
+
+                <div id="score-b" class="score">
+                    <span class="team-name" id="team-name-b" contenteditable="true" data-team="B">Team B</span>: <span id="score-val-b">0</span>
+                </div>
+
+            </div>
+            <h3 id="game-status-text">Team A, pick a question!</h3>
             <div class="questions">
                 <div class="qn">
                     <p class="ps">1</p>
@@ -372,8 +498,11 @@
                 <p class="ready">
                     <span id="display">Get Ready...</span>
                 </p>
-                <button class="btnn" id="reveal">Reveal Question</button>
-                <button class="btnn" id="reveal-ans">Reveal Answer</button>
+                
+
+                    <button class="btnn" id="reveal">Reveal Question</button>
+                    <button class="btnn" id="reveal-ans">Reveal Answer</button>
+                
             </div>
         </div>
         </form>
@@ -384,10 +513,20 @@
             <p id="answer-display">
 
             </p>
-            <button class="btnn" id="close-answer">Close</button>
+            
+            <div class="answer-check">
+
+                <button class="btnn" id="correct-answer">✅Correct</button>
+                <button class="btnn" id="wrong-answer">❌Wrong</button>
+            </div>
         </div>
     </div>
-    
+    <div class="winner-container">
+        <div class="winner-area">
+            <h1 id="winner-team"></h1>
+            <a href="choose.html">BACK</a>
+        </div>
+    </div>
     <script src="script.js"></script>
     <script>
             
@@ -402,10 +541,19 @@
         let format_store = [];
         let qni = [];
         let qnnum = null;
+        let scoreA = 0;
+        let scoreB = 0;
+        let currentTurn = 'A';
+
+        let questionSelected = 0;
 
         const synth = window.speechSynthesis;
 
         const mainform = document.querySelector('form');
+
+        const winnercontainer = document.querySelector('.winner-container');
+
+        const winnerteam = document.getElementById('winner-team');
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
 
@@ -438,12 +586,26 @@
 
         const buttons = document.querySelectorAll('.btn, .btnn, .qn, a, #custom-q-input,start-btn');
 
+        const correctbtn = document.getElementById('correct-answer');
+        const wrongbtn = document.getElementById('wrong-answer');
+
+        const teamA = document.getElementById('score-val-a');
+        const teamB = document.getElementById('score-val-b');
+
+
+        const teamScoreA = document.getElementById('score-a');
+        const teamScoreB = document.getElementById('score-b');
+
+        const gamestatustext = document.getElementById('game-status-text');
+
         buttons.forEach(( button) => {
             button.addEventListener('click', () => {
                 clicksound.currentTime = 0;
                 clicksound.play();
             });
         });
+        
+
 
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
@@ -540,6 +702,7 @@
                     if(qn.classList.contains('selected')){
                         return;
                     }
+                    questionSelected++
                     qn.style.cursor = "not-allowed";
                     qn.classList.add('selected');
                     qn.classList.add('current-question');
@@ -567,6 +730,7 @@
                 })
             })
 
+            
             revealbtn.addEventListener('click', (e)=>{
                 const active_question = document.querySelector('.current-question');
                 if(!active_question){
@@ -589,7 +753,70 @@
                 readaloud("The answer is: " + qni.answer);
             })
 
-            answerclosebtn.addEventListener('click', (e)=>{
+            correctbtn.addEventListener('click', (e)=>{
+                if(currentTurn === 'A'){
+                    scoreA++;
+                    teamA.innerText = scoreA;
+                    currentTurn = 'B';
+                    teamScoreB.classList.add('highlight-turn');
+                    teamScoreA.classList.remove('highlight-turn');
+                    gamestatustext.innerText = "Team B, pick a question!";
+                } 
+
+                else {
+                    scoreB++;
+                    teamB.innerText = scoreB;
+                    currentTurn = 'A';
+                    teamScoreA.classList.add('highlight-turn');
+                    teamScoreB.classList.remove('highlight-turn');
+                    gamestatustext.innerText = "Team A, pick a question!";
+                }
+                
+                const active_question = document.querySelector('.current-question');
+            
+                answercontainer.style.opacity = 0;
+                answercontainer.style.visibility = "hidden";
+                revealanswerbtn.style.display = "none";
+                revealbtn.style.display = "block";
+                active_question.classList.remove('current-question');
+                questionoptions.style.opacity = 1;
+                questionoptions.style.pointerEvents = 'auto';
+                display.innerHTML = "Get Ready...";
+                questionarea.style.display = "none";
+
+                if(questionSelected === allquestions.length){
+                    winnercontainer.style.opacity = 1;
+                    winnercontainer.style.visibility = "visible";
+                    if(scoreA > scoreB){
+                        
+                        winnerteam.innerText = "Congratulations, Team A Wins!";
+                    }
+                    else if(scoreB > scoreA){
+                        
+                        winnerteam.innerText = "Congratulations, Team B Wins!";
+                    }
+                    else{
+                
+                        winnerteam.innerText = "Congratulations both teams, It's a Tie!";
+                    }
+                }
+            })
+
+            wrongbtn.addEventListener('click', (e)=>{
+                if(currentTurn === 'A'){
+                    currentTurn = 'B';
+                    teamScoreB.classList.add('highlight-turn');
+                    teamScoreA.classList.remove('highlight-turn');
+                    gamestatustext.innerText = "Team B, pick a question!";
+                } 
+
+                else {
+                    currentTurn = 'A';
+                    teamScoreA.classList.add('highlight-turn');
+                    teamScoreB.classList.remove('highlight-turn');
+                    gamestatustext.innerText = "Team A, pick a question!";
+                }
+
                 const active_question = document.querySelector('.current-question');
                 
                 answercontainer.style.opacity = 0;
@@ -601,13 +828,28 @@
                 questionoptions.style.pointerEvents = 'auto';
                 display.innerHTML = "Get Ready...";
                 questionarea.style.display = "none";
+
+                if(questionSelected === allquestions.length){
+                    winnercontainer.style.opacity = 1;
+                    winnercontainer.style.visibility = "visible";
+                    if(scoreA > scoreB){
+                        
+                        winnerteam.innerText = "Congratulations, Team A Wins!";
+                    }
+                    else if(scoreB > scoreA){
+                        
+                        winnerteam.innerText = "Congratulations, Team B Wins!";
+                    }
+                    else{
+                
+                        winnerteam.innerText = "Congratulations both teams, It's a Tie!";
+                    }
+                }
             })
         }
     })
 })
-})
-
-        
-    </script>
+})      
+</script>
 </body>
 </html>
