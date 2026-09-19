@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const data = fs.readFileSync('questions.json', 'utf8');
 const parsed_data = JSON.parse(data);
-
+console.log('parsed')
 
 app.post('/save',(req,res)=>{
     const limit = req.body.limit;
@@ -18,8 +18,8 @@ app.post('/save',(req,res)=>{
     if(category.toLowerCase() == "iq" || category.toLowerCase() == "mix"){
         category = "iq logic";
     }
-    const selected_questions = parsed_data.filter(p=>p.category==category);
-    const selected_questions1 = selected_questions.filter(s=>s.difficulty===diff);
+    const selected_questions = parsed_data.filter(p=>p.category.toLowerCase()==category.toLowerCase());
+    const selected_questions1 = selected_questions.filter(s=>s.difficulty.toLowerCase()===diff.toLowerCase());
     const selected_questions2 = selected_questions1.sort(()=>Math.random()-0.5).slice(0, limit);
     console.log(selected_questions2)
     const random_numforfun = Math.floor(Math.random()*70);

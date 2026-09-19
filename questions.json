@@ -1,3332 +1,3332 @@
 [
   {
-    "question": "What is the biology answer 23?",
-    "answer": "tRNA",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 45?",
-    "answer": "Vikings",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 49?",
-    "answer": "K",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 57?",
-    "answer": "135",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 34?",
-    "answer": "flare",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 47?",
-    "answer": "Fe",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 51?",
-    "answer": "supernova",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 47?",
-    "answer": "telescope",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 18?",
-    "answer": "fencing",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 37?",
-    "answer": "gallbladder",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 39?",
-    "answer": "esophagus",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 51?",
-    "answer": "Phoenicians",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 30?",
-    "answer": "bubble",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 37?",
-    "answer": "Copernicus",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 63?",
-    "answer": "matter",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 7?",
-    "answer": "Declaration",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 29?",
-    "answer": "binary",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 67?",
-    "answer": "compound",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 60?",
-    "answer": "Mali",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 69?",
-    "answer": "189",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 36?",
-    "answer": "sunspots",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 29?",
-    "answer": "Ganymede",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 59?",
-    "answer": "144",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 42?",
-    "answer": "43",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 62?",
-    "answer": "genetics",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 51?",
-    "answer": "Cu",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 31?",
-    "answer": "Churchill",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 18?",
-    "answer": "astronomy",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 25?",
-    "answer": "ohm",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 26?",
-    "answer": "27",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 31?",
-    "answer": "55",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 65?",
-    "answer": "Sputnik",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 21?",
-    "answer": "comet",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 41?",
-    "answer": "sailing",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 3?",
-    "answer": "baseball",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 8?",
-    "answer": "proton",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 41?",
-    "answer": "lava",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 34?",
-    "answer": "66",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 16?",
-    "answer": "horizon",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 20?",
-    "answer": "asteroid",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 68?",
-    "answer": "mixture",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 38?",
-    "answer": "function",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 54?",
-    "answer": "Babylon",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 53?",
-    "answer": "nucleus",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 64?",
-    "answer": "atom",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 44?",
-    "answer": "Magna",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 68?",
-    "answer": "Industrialization",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 47?",
-    "answer": "Mongol",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 11?",
-    "answer": "volleyball",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 39?",
-    "answer": "variable",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 50?",
-    "answer": "Carthage",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 20?",
-    "answer": "tuple",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 32?",
-    "answer": "spiral",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 59?",
-    "answer": "star",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 12?",
-    "answer": "ribosome",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 64?",
-    "answer": "histology",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 36?",
-    "answer": "liver",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 24?",
-    "answer": "hertz",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 38?",
-    "answer": "39",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 54?",
-    "answer": "125",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 5?",
-    "answer": "rugby",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 3?",
-    "answer": "4",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 38?",
-    "answer": "Aristotle",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 66?",
-    "answer": "Hiroshima",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 35?",
-    "answer": "polymorphism",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 45?",
-    "answer": "luge",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 22?",
-    "answer": "gene",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 53?",
-    "answer": "6",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 40?",
-    "answer": "bowling",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 35?",
-    "answer": "Leonardo",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 61?",
-    "answer": "154",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 41?",
-    "answer": "90",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 30?",
-    "answer": "Phobos",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 6?",
-    "answer": "0",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 48?",
-    "answer": "shooting",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 18?",
-    "answer": "49",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 43?",
-    "answer": "skating",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 6?",
-    "answer": "7",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 25?",
-    "answer": "Aztec",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 30?",
-    "answer": "thermometer",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 52?",
-    "answer": "cookie",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 56?",
-    "answer": "26",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 50?",
-    "answer": "115",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 11?",
-    "answer": "4",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 61?",
-    "answer": "relay",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 30?",
-    "answer": "Stalin",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 68?",
-    "answer": "quasar",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 40?",
-    "answer": "stomach",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 63?",
-    "answer": "Treaty",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 62?",
-    "answer": "160",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 57?",
-    "answer": "hurdles",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 14?",
-    "answer": "15",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 39?",
-    "answer": "kabaddi",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 33?",
-    "answer": "corona",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 34?",
-    "answer": "inheritance",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 19?",
-    "answer": "eukaryote",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 26?",
-    "answer": "alignment",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 50?",
-    "answer": "powerlifting",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 10?",
-    "answer": "DNS",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 21?",
-    "answer": "22",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 3?",
-    "answer": "Roman",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 36?",
-    "answer": "Galileo",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 35?",
-    "answer": "decathlon",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 50?",
-    "answer": "51",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 14?",
-    "answer": "membrane",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 4?",
-    "answer": "Sumerians",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 3?",
-    "answer": "lungs",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 35?",
-    "answer": "36",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 48?",
-    "answer": "Napoleon",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 63?",
-    "answer": "165",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 64?",
-    "answer": "Apollo",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 28?",
-    "answer": "nitrogen",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 52?",
-    "answer": "neutronstar",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 43?",
-    "answer": "nervous",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 48?",
-    "answer": "spectrograph",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 51?",
-    "answer": "117",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 20?",
-    "answer": "mitosis",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 70?",
-    "answer": "192",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 14?",
-    "answer": "cycling",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 26?",
-    "answer": "guanine",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 2?",
-    "answer": "Saturn",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 67?",
-    "answer": "merge",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 27?",
-    "answer": "Andromeda",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 19?",
-    "answer": "64",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 37?",
-    "answer": "abstraction",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 13?",
-    "answer": "chloroplast",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 60?",
-    "answer": "61",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 13?",
-    "answer": "8",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 32?",
-    "answer": "class",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 28?",
-    "answer": "29",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 40?",
-    "answer": "87",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 18?",
-    "answer": "prokaryote",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 58?",
-    "answer": "59",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 36?",
-    "answer": "pentathlon",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 17?",
-    "answer": "cosmology",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 15?",
-    "answer": "condensation",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 55?",
-    "answer": "genotype",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 15?",
-    "answer": "Civilwar",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 57?",
-    "answer": "India",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 4?",
-    "answer": "5",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 57?",
-    "answer": "58",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 7?",
-    "answer": "RNA",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 29?",
-    "answer": "30",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 14?",
-    "answer": "10",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 48?",
-    "answer": "module",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 33?",
-    "answer": "marathon",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 55?",
-    "answer": "Persia",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 32?",
-    "answer": "60",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 47?",
-    "answer": "parasitism",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 21?",
-    "answer": "Cleopatra",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 28?",
-    "answer": "45",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 12?",
-    "answer": "Proxima",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 49?",
-    "answer": "Waterloo",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 61?",
-    "answer": "Songhai",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 30?",
-    "answer": "52",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 69?",
-    "answer": "Feudalism",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 12?",
-    "answer": "football",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 24?",
-    "answer": "24",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 65?",
-    "answer": "170",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 69?",
-    "answer": "pulsar",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 67?",
-    "answer": "perihelion",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 17?",
-    "answer": "archery",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 46?",
-    "answer": "skeleton",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 38?",
-    "answer": "hurling",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 46?",
-    "answer": "pointer",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 8?",
-    "answer": "chlorophyll",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 33?",
-    "answer": "63",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 28?",
-    "answer": "DFS",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 20?",
-    "answer": "rowing",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 42?",
-    "answer": "respiratory",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 10?",
-    "answer": "gravity",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 59?",
-    "answer": "chemical",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 66?",
-    "answer": "aphelion",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 47?",
-    "answer": "recursion",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 19?",
-    "answer": "constellation",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 23?",
-    "answer": "watt",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 18?",
-    "answer": "19",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 13?",
-    "answer": "diamond",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 40?",
-    "answer": "41",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 30?",
-    "answer": "snooker",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 2?",
-    "answer": "heart",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 42?",
-    "answer": "diving",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 56?",
-    "answer": "132",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 22?",
-    "answer": "18",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 39?",
-    "answer": "Oort",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 58?",
-    "answer": "Japan",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 52?",
-    "answer": "racing",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 61?",
-    "answer": "CREATE",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 58?",
-    "answer": "planet",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 10?",
-    "answer": "81",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 53?",
-    "answer": "softball",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 27?",
-    "answer": "28",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 35?",
-    "answer": "69",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 11?",
-    "answer": "Nile",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 24?",
-    "answer": "25",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 27?",
-    "answer": "BFS",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 9?",
-    "answer": "photosynthesis",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 61?",
-    "answer": "potential",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 50?",
-    "answer": "Ag",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 47?",
-    "answer": "48",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 17?",
-    "answer": "freezing",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 57?",
-    "answer": "79",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 33?",
-    "answer": "object",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 51?",
-    "answer": "52",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 31?",
-    "answer": "platelets",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 66?",
-    "answer": "keratin",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 46?",
+    "question": "What is the chemical symbol for gold?",
     "answer": "Au",
-    "category": "science",
-    "difficulty": "extreme"
+    "category": "Science",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 44?",
-    "answer": "bobsleigh",
-    "category": "sports",
-    "difficulty": "extreme"
+    "question": "What is the freezing point of water in Celsius?",
+    "answer": "0°C",
+    "category": "Science",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the science answer 16?",
-    "answer": "melting",
-    "category": "science",
+    "question": "What instrument is used to measure temperature?",
+    "answer": "Thermometer",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answer": "Fe",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What state of matter has a fixed shape and volume?",
+    "answer": "Solid",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "answer": "O",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What force pulls objects toward the ground?",
+    "answer": "Gravity",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process of a liquid turning into a gas called?",
+    "answer": "Evaporation",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the unit used to measure electric current?",
+    "answer": "Ampere",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What gas do plants release during photosynthesis?",
+    "answer": "Oxygen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "answer": "Ag",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the force that opposes motion between two surfaces?",
+    "answer": "Friction",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main gas found in the air we breathe, by volume?",
+    "answer": "Nitrogen",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What tool is used to measure the mass of an object?",
+    "answer": "A weighing scale (balance)",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical symbol for helium?",
+    "answer": "He",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of energy is stored in a stretched rubber band?",
+    "answer": "Elastic potential energy",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process of a solid turning directly into a gas called?",
+    "answer": "Sublimation",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "answer": "100°C",
+    "category": "Science",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Newton's first law of motion also known as?",
+    "answer": "The law of inertia",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the iq logic answer 52?",
-    "answer": "120",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 50?",
-    "answer": "habitat",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 65?",
-    "answer": "66",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 9?",
-    "answer": "Milkyway",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 12?",
-    "answer": "Atlantic",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 27?",
-    "answer": "42",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 15?",
-    "answer": "16",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 15?",
-    "answer": "16",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 65?",
-    "answer": "pickleball",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 7?",
-    "answer": "12",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 23?",
-    "answer": "21",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 1?",
-    "answer": "Mars",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 23?",
-    "answer": "meteor",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 9?",
-    "answer": "Berlinwall",
-    "category": "history",
+    "question": "What is the SI unit of pressure?",
+    "answer": "Pascal",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the astronomy answer 64?",
-    "answer": "zenith",
-    "category": "astronomy",
+    "question": "What type of lens is used to correct short-sightedness (myopia)?",
+    "answer": "A concave lens",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the maths answer 55?",
-    "answer": "56",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 25?",
-    "answer": "thymine",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 39?",
-    "answer": "80",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 21?",
-    "answer": "15",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 68?",
-    "answer": "branch",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 19?",
-    "answer": "list",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 6?",
-    "answer": "tennis",
-    "category": "sports",
+    "question": "What is the chemical formula for table salt?",
+    "answer": "NaCl",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the iq logic answer 53?",
-    "answer": "121",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 70?",
-    "answer": "71",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 55?",
-    "answer": "climbing",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 58?",
-    "answer": "140",
-    "category": "iq logic",
+    "question": "What is the process by which plants lose water vapor through their leaves called?",
+    "answer": "Transpiration",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the maths answer 23?",
-    "answer": "24",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 5?",
-    "answer": "Neptune",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 55?",
-    "answer": "request",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 57?",
-    "answer": "cluster",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 51?",
-    "answer": "producers",
-    "category": "biology",
+    "question": "What term describes the amount of matter in an object?",
+    "answer": "Mass",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the sports answer 59?",
-    "answer": "javelin",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 6?",
-    "answer": "Sparta",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 26?",
-    "answer": "Britain",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 7?",
-    "answer": "hockey",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 43?",
-    "answer": "44",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 13?",
-    "answer": "terrestrial",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 25?",
-    "answer": "orbit",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 53?",
-    "answer": "session",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 33?",
-    "answer": "anemometer",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 21?",
-    "answer": "karate",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 33?",
-    "answer": "Renaissance",
-    "category": "history",
+    "question": "Which element has the atomic number 1?",
+    "answer": "Hydrogen",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the programming answer 64?",
-    "answer": "push",
-    "category": "programming",
-    "difficulty": "extreme"
+    "question": "What is the name of the alloy made from copper and tin?",
+    "answer": "Bronze",
+    "category": "Science",
+    "difficulty": "moderate"
   },
   {
-    "question": "What is the programming answer 9?",
-    "answer": "HTTPS",
-    "category": "programming",
-    "difficulty": "easy"
+    "question": "What term describes a substance that speeds up a chemical reaction without being consumed?",
+    "answer": "Catalyst",
+    "category": "Science",
+    "difficulty": "moderate"
   },
   {
-    "question": "What is the biology answer 34?",
-    "answer": "insulin",
-    "category": "biology",
-    "difficulty": "easy"
+    "question": "What is the SI unit of frequency?",
+    "answer": "Hertz",
+    "category": "Science",
+    "difficulty": "moderate"
   },
   {
-    "question": "What is the science answer 52?",
+    "question": "What phenomenon causes a straw to look bent when placed in water?",
+    "answer": "Refraction",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What pH value is a strongly acidic solution generally close to?",
     "answer": "1",
-    "category": "science",
+    "category": "Science",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the biology answer 16?",
-    "answer": "cytoplasm",
-    "category": "biology",
+    "question": "What is the chemical name for rust?",
+    "answer": "Iron oxide",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which law states that the pressure and volume of a gas are inversely proportional at constant temperature?",
+    "answer": "Boyle's law",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the change of state from gas to liquid?",
+    "answer": "Condensation",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the unit of electrical resistance?",
+    "answer": "Ohm",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What kind of mirror is used in a car's side-view mirror?",
+    "answer": "A convex mirror",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the common name for solid carbon dioxide?",
+    "answer": "Dry ice",
+    "category": "Science",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which scientist discovered the electron?",
+    "answer": "J.J. Thomson",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the biology answer 44?",
-    "answer": "endocrine",
-    "category": "biology",
+    "question": "What term describes elements with the same number of protons but different numbers of neutrons?",
+    "answer": "Isotopes",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the astronomy answer 11?",
-    "answer": "fusion",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 1?",
-    "answer": "soccer",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 31?",
-    "answer": "barometer",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 13?",
-    "answer": "continue",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 22?",
-    "answer": "joule",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 10?",
-    "answer": "respiration",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 51?",
-    "answer": "client",
-    "category": "programming",
+    "question": "Which law relates voltage, current and resistance in a circuit?",
+    "answer": "Ohm's law",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the iq logic answer 5?",
-    "answer": "17",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 34?",
-    "answer": "Florence",
-    "category": "history",
+    "question": "What is the SI unit of magnetic flux?",
+    "answer": "Weber",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the maths answer 44?",
-    "answer": "45",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 49?",
-    "answer": "lensing",
-    "category": "astronomy",
+    "question": "What is the name of the process by which nuclei combine to release energy, powering the Sun?",
+    "answer": "Nuclear fusion",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the maths answer 31?",
-    "answer": "32",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 1?",
-    "answer": "oxygen",
-    "category": "science",
+    "question": "What term describes the minimum energy required to remove an electron from an atom?",
+    "answer": "Ionization energy",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the biology answer 57?",
-    "answer": "replication",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 65?",
-    "answer": "biology",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 40?",
-    "answer": "Byzantine",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 36?",
-    "answer": "encapsulation",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 2?",
-    "answer": "5",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 53?",
-    "answer": "54",
-    "category": "maths",
+    "question": "What principle explains why objects float or sink in a fluid?",
+    "answer": "Archimedes' principle",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the biology answer 17?",
-    "answer": "ATP",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 24?",
-    "answer": "mRNA",
-    "category": "biology",
+    "question": "What law describes the force between two charged particles, inversely proportional to the square of the distance between them?",
+    "answer": "Coulomb's law",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the programming answer 63?",
-    "answer": "commit",
-    "category": "programming",
+    "question": "What is the SI unit of luminous intensity?",
+    "answer": "Candela",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the biology answer 27?",
-    "answer": "deoxyribose",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 48?",
-    "answer": "commensalism",
-    "category": "biology",
+    "question": "Which subatomic particle did Rutherford's gold foil experiment show resides in the atomic nucleus?",
+    "answer": "Proton",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the sports answer 9?",
-    "answer": "chess",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 24?",
-    "answer": "stack",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 42?",
-    "answer": "compiler",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 11?",
-    "answer": "12",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 32?",
-    "answer": "seismometer",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 62?",
-    "answer": "JOIN",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 20?",
-    "answer": "ampere",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 67?",
-    "answer": "68",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 17?",
-    "answer": "float",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 6?",
-    "answer": "Git",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 8?",
-    "answer": "HTTP",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 64?",
-    "answer": "65",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 22?",
-    "answer": "judo",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 45?",
-    "answer": "Moon",
-    "category": "science",
+    "question": "What term describes light splitting into its component colors when passing through a prism?",
+    "answer": "Dispersion",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the programming answer 45?",
-    "answer": "array",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 11?",
-    "answer": "7",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 6?",
-    "answer": "Venus",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 8?",
-    "answer": "Moon",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 61?",
-    "answer": "eclipse",
-    "category": "astronomy",
+    "question": "Which law states that energy cannot be created or destroyed, only transformed?",
+    "answer": "The law of conservation of energy",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the programming answer 16?",
-    "answer": "integer",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 56?",
-    "answer": "response",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 45?",
-    "answer": "blue",
-    "category": "astronomy",
+    "question": "What is the SI unit of electric charge?",
+    "answer": "Coulomb",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the astronomy answer 41?",
-    "answer": "microwave",
-    "category": "astronomy",
+    "question": "What term describes a chemical reaction that absorbs heat from its surroundings?",
+    "answer": "Endothermic reaction",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the maths answer 48?",
-    "answer": "49",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 53?",
-    "answer": "decomposers",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 50?",
-    "answer": "exoplanet",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 44?",
-    "answer": "precipitation",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 1?",
-    "answer": "Inca",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 56?",
-    "answer": "nebula",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 39?",
-    "answer": "40",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 41?",
-    "answer": "debugging",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 29?",
-    "answer": "leukocytes",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 34?",
-    "answer": "35",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 44?",
-    "answer": "helium",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 69?",
-    "answer": "repository",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 34?",
-    "answer": "triathlon",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 48?",
-    "answer": "110",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 2?",
-    "answer": "Pompeii",
-    "category": "history",
+    "question": "What term describes a chemical reaction that releases heat to its surroundings?",
+    "answer": "Exothermic reaction",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the programming answer 59?",
-    "answer": "UPDATE",
-    "category": "programming",
+    "question": "What is the chemical formula for methane?",
+    "answer": "CH4",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the programming answer 40?",
-    "answer": "bug",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 59?",
-    "answer": "Korea",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 49?",
-    "answer": "112",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 69?",
-    "answer": "70",
-    "category": "maths",
+    "question": "What branch of physics studies heat, work, and energy transfer?",
+    "answer": "Thermodynamics",
+    "category": "Science",
     "difficulty": "hard"
   },
   {
-    "question": "What is the biology answer 63?",
-    "answer": "cytology",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 68?",
-    "answer": "69",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 42?",
-    "answer": "Normans",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 55?",
-    "answer": "Uranus",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 14?",
-    "answer": "return",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 16?",
-    "answer": "Versailles",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 46?",
-    "answer": "mutualism",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 22?",
-    "answer": "23",
-    "category": "maths",
+    "question": "What principle states that a particle's exact position and momentum cannot both be known at once?",
+    "answer": "Heisenberg's uncertainty principle",
+    "category": "Science",
     "difficulty": "extreme"
   },
   {
-    "question": "What is the science answer 4?",
-    "answer": "H2O",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 32?",
-    "answer": "hemoglobin",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 43?",
-    "answer": "erosion",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 56?",
-    "answer": "China",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 5?",
-    "answer": "SQL",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 8?",
-    "answer": "9",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 30?",
-    "answer": "erythrocytes",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 62?",
-    "answer": "63",
-    "category": "maths",
+    "question": "What is the name of the particle that gives other particles mass, confirmed by experiment in 2012?",
+    "answer": "The Higgs boson",
+    "category": "Science",
     "difficulty": "extreme"
   },
   {
-    "question": "What is the iq logic answer 9?",
-    "answer": "56",
-    "category": "iq logic",
+    "question": "What term describes the theoretical temperature at which particle motion is minimized, equal to 0 Kelvin?",
+    "answer": "Absolute zero",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the SI unit of absolute temperature?",
+    "answer": "Kelvin",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What equation describes how the quantum state of a physical system changes over time?",
+    "answer": "The Schrödinger equation",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes particles becoming correlated so that measuring one instantly affects the other, regardless of distance?",
+    "answer": "Quantum entanglement",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the chemical name of the compound with the formula C6H12O6?",
+    "answer": "Glucose",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the energy required to hold the nucleons of an atomic nucleus together?",
+    "answer": "Binding energy",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the name of Einstein's mass-energy equivalence equation?",
+    "answer": "E = mc²",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a material that loses all electrical resistance below a critical temperature?",
+    "answer": "A superconductor",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the SI base unit for the amount of substance?",
+    "answer": "Mole",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What law relates the pressure, volume, temperature and amount of an ideal gas?",
+    "answer": "The ideal gas law",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What constant gives the number of particles in one mole of a substance?",
+    "answer": "Avogadro's constant",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the process by which an unstable atomic nucleus loses energy by emitting radiation?",
+    "answer": "Radioactive decay",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the smallest discrete unit of electromagnetic radiation?",
+    "answer": "A photon",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes materials whose electrical conductivity increases with temperature, unlike metals?",
+    "answer": "Semiconductors",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What theory describes gravity as the curvature of spacetime caused by mass?",
+    "answer": "General relativity",
+    "category": "Science",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "answer": "HyperText Markup Language",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 16?",
-    "answer": "athletics",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 23?",
-    "answer": "queue",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 44?",
-    "answer": "algorithm",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 24?",
-    "answer": "tilt",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 12?",
-    "answer": "6",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 45?",
-    "answer": "immune",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 32?",
-    "answer": "Lincoln",
-    "category": "history",
+    "question": "What does CSS stand for?",
+    "answer": "Cascading Style Sheets",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the maths answer 2?",
-    "answer": "3",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 12?",
-    "answer": "mercury",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 24?",
-    "answer": "surfing",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 37?",
-    "answer": "lacrosse",
-    "category": "sports",
+    "question": "What symbol is used to start a single-line comment in Python?",
+    "answer": "#",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the biology answer 56?",
-    "answer": "phenotype",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 3?",
-    "answer": "gravity",
-    "category": "science",
+    "question": "What is the standard file extension for Python files?",
+    "answer": ".py",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the programming answer 54?",
-    "answer": "header",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 19?",
-    "answer": "deposition",
-    "category": "science",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 43?",
-    "answer": "Hastings",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 26?",
-    "answer": "handball",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 28?",
-    "answer": "ribose",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 1?",
-    "answer": "2",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 49?",
-    "answer": "niche",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 67?",
-    "answer": "waterpolo",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 36?",
-    "answer": "core",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 49?",
-    "answer": "50",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 13?",
-    "answer": "14",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 7?",
-    "answer": "8",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 8?",
-    "answer": "Titanic",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 41?",
-    "answer": "circulatory",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 11?",
+    "question": "What keyword is used to define a function in Python?",
     "answer": "def",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 30?",
-    "answer": "31",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 61?",
-    "answer": "62",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 67?",
-    "answer": "collagen",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 47?",
-    "answer": "108",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 16?",
-    "answer": "17",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 16?",
-    "answer": "25",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 13?",
-    "answer": "boxing",
-    "category": "sports",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the programming answer 22?",
-    "answer": "set",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 2?",
-    "answer": "HTML",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 27?",
-    "answer": "netball",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 10?",
-    "answer": "nucleus",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 65?",
-    "answer": "pull",
-    "category": "programming",
+    "question": "What data type represents true/false values?",
+    "answer": "Boolean",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the astronomy answer 14?",
-    "answer": "lightyear",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 69?",
-    "answer": "acid",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 52?",
-    "answer": "consumers",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 37?",
-    "answer": "38",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 25?",
-    "answer": "27",
-    "category": "iq logic",
+    "question": "What does 'IDE' stand for?",
+    "answer": "Integrated Development Environment",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the programming answer 66?",
-    "answer": "clone",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 19?",
-    "answer": "Greek",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 39?",
-    "answer": "Socrates",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 52?",
-    "answer": "Egyptians",
-    "category": "history",
+    "question": "What is the index of the first element in most programming array structures?",
+    "answer": "0",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the maths answer 32?",
-    "answer": "33",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 18?",
-    "answer": "WWI",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 5?",
-    "answer": "brain",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 35?",
-    "answer": "mantle",
-    "category": "science",
+    "question": "What does SQL stand for?",
+    "answer": "Structured Query Language",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 8?",
-    "answer": "golf",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 17?",
-    "answer": "WWII",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 10?",
-    "answer": "11",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 17?",
-    "answer": "36",
-    "category": "iq logic",
+    "question": "What symbol commonly ends a statement in languages like C, C++, and Java?",
+    "answer": "A semicolon (;)",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the science answer 5?",
-    "answer": "100",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 38?",
-    "answer": "intestine",
-    "category": "biology",
+    "question": "What does 'API' stand for?",
+    "answer": "Application Programming Interface",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 25?",
-    "answer": "polo",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 4?",
+    "question": "Which programming language is best known for adding interactivity to web pages in browsers?",
     "answer": "JavaScript",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 58?",
-    "answer": "discus",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 25?",
-    "answer": "26",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 45?",
-    "answer": "101",
-    "category": "iq logic",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the iq logic answer 43?",
-    "answer": "96",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 59?",
-    "answer": "60",
-    "category": "maths",
+    "question": "What does 'CPU' stand for?",
+    "answer": "Central Processing Unit",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the astronomy answer 40?",
-    "answer": "Hubble",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 62?",
-    "answer": "Vatican",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 50?",
-    "answer": "server",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 38?",
-    "answer": "79",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the history answer 14?",
-    "answer": "French",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 27?",
-    "answer": "photon",
-    "category": "science",
+    "question": "What term describes a set of instructions given to a computer to perform a task?",
+    "answer": "A program (code)",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the history answer 29?",
-    "answer": "Gandhi",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the sports answer 68?",
-    "answer": "rowing",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 1?",
-    "answer": "cell",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 5?",
-    "answer": "6",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 60?",
-    "answer": "galaxy",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 6?",
-    "answer": "7",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 68?",
-    "answer": "184",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 33?",
-    "answer": "34",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 21?",
-    "answer": "newton",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 53?",
-    "answer": "Mesopotamia",
-    "category": "history",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the biology answer 15?",
-    "answer": "nucleus",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 66?",
-    "answer": "element",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 62?",
-    "answer": "canoeing",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the astronomy answer 42?",
-    "answer": "Bigbang",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 46?",
-    "answer": "104",
-    "category": "iq logic",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 7?",
-    "answer": "electron",
-    "category": "science",
+    "question": "What does 'URL' stand for?",
+    "answer": "Uniform Resource Locator",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the iq logic answer 4?",
-    "answer": "13",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 67?",
-    "answer": "Nagasaki",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 19?",
-    "answer": "20",
-    "category": "maths",
+    "question": "What loop repeats a block of code a fixed number of times?",
+    "answer": "A for loop",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the biology answer 58?",
-    "answer": "transcription",
-    "category": "biology",
+    "question": "What term describes a variable that holds a memory address?",
+    "answer": "A pointer",
+    "category": "Programming",
     "difficulty": "easy"
   },
   {
-    "question": "What is the history answer 22?",
-    "answer": "John",
-    "category": "history",
-    "difficulty": "hard"
+    "question": "What does 'GUI' stand for?",
+    "answer": "Graphical User Interface",
+    "category": "Programming",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the astronomy answer 28?",
-    "answer": "Titan",
-    "category": "astronomy",
+    "question": "What data structure follows a Last In, First Out (LIFO) order?",
+    "answer": "Stack",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the astronomy answer 63?",
-    "answer": "equinox",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 49?",
-    "answer": "package",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 67?",
-    "answer": "180",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 64?",
-    "answer": "padel",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 20?",
-    "answer": "Macedonian",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 60?",
-    "answer": "150",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 8?",
-    "answer": "30",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 1?",
-    "answer": "2",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 24?",
-    "answer": "Maya",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 41?",
-    "answer": "42",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 14?",
-    "answer": "evaporation",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 13?",
-    "answer": "Columbus",
-    "category": "history",
+    "question": "What data structure follows a First In, First Out (FIFO) order?",
+    "answer": "Queue",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the science answer 65?",
-    "answer": "molecule",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 66?",
-    "answer": "175",
-    "category": "iq logic",
+    "question": "What term describes a function that calls itself?",
+    "answer": "Recursion",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the biology answer 4?",
-    "answer": "kidney",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 29?",
-    "answer": "squash",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 59?",
-    "answer": "translation",
-    "category": "biology",
+    "question": "What does 'OOP' stand for?",
+    "answer": "Object-Oriented Programming",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the iq logic answer 42?",
-    "answer": "93",
-    "category": "iq logic",
+    "question": "What keyword creates a new object instance in Java or C++?",
+    "answer": "new",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the astronomy answer 15?",
-    "answer": "magnitude",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 31?",
-    "answer": "Dijkstra",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 38?",
-    "answer": "Kuiper",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 54?",
-    "answer": "8",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 6?",
-    "answer": "DNA",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the biology answer 68?",
-    "answer": "neuron",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 60?",
-    "answer": "hammer",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 55?",
-    "answer": "128",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 34?",
-    "answer": "crust",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 15?",
-    "answer": "string",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 61?",
-    "answer": "cancer",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 42?",
-    "answer": "weathering",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 27?",
-    "answer": "Gutenberg",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 28?",
-    "answer": "Revolution",
-    "category": "history",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 26?",
-    "answer": "volt",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 22?",
-    "answer": "meteorite",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 12?",
-    "answer": "13",
-    "category": "maths",
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "answer": "O(log n)",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the biology answer 60?",
-    "answer": "apoptosis",
-    "category": "biology",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 54?",
-    "answer": "ellipse",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the iq logic answer 29?",
-    "answer": "48",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 66?",
-    "answer": "sevens",
-    "category": "sports",
+    "question": "What term describes a class acquiring properties and behavior from another class?",
+    "answer": "Inheritance",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the programming answer 43?",
-    "answer": "interpreter",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 10?",
-    "answer": "plague",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the history answer 41?",
-    "answer": "Constantinople",
-    "category": "history",
+    "question": "What does 'JSON' stand for?",
+    "answer": "JavaScript Object Notation",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the astronomy answer 31?",
-    "answer": "nitrogen",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the astronomy answer 62?",
-    "answer": "solstice",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 54?",
-    "answer": "allele",
-    "category": "biology",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 29?",
-    "answer": "stratosphere",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 23?",
-    "answer": "skiing",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 37?",
-    "answer": "Pluto",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the biology answer 21?",
-    "answer": "meiosis",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 56?",
-    "answer": "sprinting",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 49?",
-    "answer": "weightlifting",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the iq logic answer 26?",
-    "answer": "33",
-    "category": "iq logic",
+    "question": "What term describes an error that occurs while a program is running?",
+    "answer": "A runtime error",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the biology answer 33?",
-    "answer": "pancreas",
-    "category": "biology",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 43?",
-    "answer": "hydrogen",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the history answer 5?",
-    "answer": "Athens",
-    "category": "history",
+    "question": "What term describes storing a value under a name for later use in a program?",
+    "answer": "A variable",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the maths answer 46?",
-    "answer": "47",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the history answer 23?",
-    "answer": "Ming",
-    "category": "history",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 31?",
-    "answer": "darts",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 3?",
-    "answer": "9",
-    "category": "iq logic",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 70?",
-    "answer": "syntax",
-    "category": "programming",
+    "question": "Which distributed version control system, created by Linus Torvalds, is widely used today?",
+    "answer": "Git",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the maths answer 9?",
-    "answer": "10",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 65?",
-    "answer": "nadir",
-    "category": "astronomy",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 3?",
-    "answer": "CSS",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 56?",
-    "answer": "57",
-    "category": "maths",
+    "question": "What term describes a function's ability to take different forms depending on the input type?",
+    "answer": "Polymorphism",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the history answer 46?",
-    "answer": "Ottoman",
-    "category": "history",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 28?",
-    "answer": "curling",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 69?",
-    "answer": "curling",
-    "category": "sports",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the programming answer 26?",
-    "answer": "tree",
-    "category": "programming",
+    "question": "What term describes hiding a class's internal implementation details from outside code?",
+    "answer": "Encapsulation",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the sports answer 63?",
-    "answer": "futsal",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the iq logic answer 37?",
-    "answer": "74",
-    "category": "iq logic",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 38?",
-    "answer": "sedimentary",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 37?",
-    "answer": "igneous",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 63?",
-    "answer": "64",
-    "category": "maths",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 36?",
-    "answer": "37",
-    "category": "maths",
+    "question": "What symbol represents 'not equal to' in Python?",
+    "answer": "!=",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the science answer 70?",
-    "answer": "base",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 1?",
-    "answer": "Python",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the science answer 48?",
-    "answer": "Na",
-    "category": "science",
+    "question": "What does 'HTTP' stand for?",
+    "answer": "HyperText Transfer Protocol",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the maths answer 17?",
-    "answer": "18",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the astronomy answer 3?",
-    "answer": "Jupiter",
-    "category": "astronomy",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the maths answer 66?",
-    "answer": "67",
-    "category": "maths",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the biology answer 35?",
-    "answer": "glucagon",
-    "category": "biology",
+    "question": "What term describes a Python collection of key-value pairs?",
+    "answer": "A dictionary",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the sports answer 19?",
-    "answer": "gymnastics",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 60?",
-    "answer": "DELETE",
-    "category": "programming",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 9?",
-    "answer": "neutron",
-    "category": "science",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the maths answer 45?",
-    "answer": "46",
-    "category": "maths",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the science answer 2?",
-    "answer": "carbon",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 32?",
-    "answer": "wrestling",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 7?",
-    "answer": "JSON",
-    "category": "programming",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the programming answer 21?",
-    "answer": "dict",
-    "category": "programming",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the sports answer 47?",
-    "answer": "taekwondo",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 15?",
-    "answer": "swimming",
-    "category": "sports",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the sports answer 4?",
-    "answer": "cricket",
-    "category": "sports",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the maths answer 20?",
-    "answer": "21",
-    "category": "maths",
+    "question": "What is the default port number for HTTP traffic?",
+    "answer": "80",
+    "category": "Programming",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the iq logic answer 64?",
-    "answer": "168",
-    "category": "iq logic",
+    "question": "What term describes testing individual components of software in isolation?",
+    "answer": "Unit testing",
+    "category": "Programming",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which divide-and-conquer sorting algorithm uses a pivot and has an average time complexity of O(n log n)?",
+    "answer": "Quicksort",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the average-case time complexity of accessing an element in a hash table?",
+    "answer": "O(1)",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What design pattern ensures a class has only one instance throughout a program?",
+    "answer": "The Singleton pattern",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What data structure consists of nodes where each node points to the next, forming a chain?",
+    "answer": "A linked list",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Big O notation, what is the worst-case time complexity of bubble sort?",
+    "answer": "O(n²)",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes translating source code into machine code before it is run?",
+    "answer": "Compilation",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does 'ACID' stand for in database transactions?",
+    "answer": "Atomicity, Consistency, Isolation, Durability",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What tree data structure has each node with at most two children?",
+    "answer": "A binary tree",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a function that takes another function as an argument or returns one?",
+    "answer": "A higher-order function",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What algorithm finds the shortest path in a weighted graph with non-negative edge weights?",
+    "answer": "Dijkstra's algorithm",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What synchronization mechanism prevents multiple threads from accessing a shared resource at once?",
+    "answer": "A mutex (lock)",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the process of finding and fixing errors in code?",
+    "answer": "Debugging",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What graph traversal explores as far as possible along a branch before backtracking?",
+    "answer": "Depth-first search (DFS)",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What graph traversal explores a graph level by level, visiting all neighbors first?",
+    "answer": "Breadth-first search (BFS)",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What programming paradigm treats computation as the evaluation of mathematical functions and avoids mutable state?",
+    "answer": "Functional programming",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What tree-based data structure, satisfying the heap property, is used to implement priority queues efficiently?",
+    "answer": "A heap",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a bug where a program keeps allocating memory without releasing it?",
+    "answer": "A memory leak",
+    "category": "Programming",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What famous unsolved problem asks whether every problem whose solution can be quickly verified can also be quickly solved?",
+    "answer": "The P vs NP problem",
+    "category": "Programming",
     "difficulty": "extreme"
   },
   {
-    "question": "What is the science answer 55?",
+    "question": "What is the time complexity of the Fast Fourier Transform algorithm?",
+    "answer": "O(n log n)",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a Turing machine capable of simulating any other Turing machine?",
+    "answer": "A universal Turing machine",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What greedy algorithm, developed by Prim, finds a minimum spanning tree of a graph?",
+    "answer": "Prim's algorithm",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What data structure efficiently supports union and find operations on disjoint sets?",
+    "answer": "A disjoint-set (union-find) structure",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What compiler optimization removes code that never affects the program's output?",
+    "answer": "Dead code elimination",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a situation where two or more processes wait forever for each other to release resources?",
+    "answer": "Deadlock",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the average time per operation over a sequence of operations, even when individual operations vary in cost?",
+    "answer": "Amortized time complexity",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What widely used public-key cryptography algorithm is named after its three inventors?",
+    "answer": "RSA",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What tree-based data structure allows range queries and updates on an array in O(log n) time?",
+    "answer": "A segment tree",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What complexity class describes problems that are at least as hard as the hardest problems in NP?",
+    "answer": "NP-hard",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What dynamic programming algorithm finds the longest shared subsequence between two strings?",
+    "answer": "The longest common subsequence algorithm",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What hash table collision-resolution technique stores multiple colliding elements in a linked list at the same bucket?",
+    "answer": "Separate chaining",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What algorithm did Google originally use to rank web pages based on their link structure?",
+    "answer": "PageRank",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the intermediate, platform-independent code that Java source compiles into before running on a virtual machine?",
+    "answer": "Bytecode",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a machine learning model that fits training data too closely and performs poorly on new data?",
+    "answer": "Overfitting",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What consensus algorithm does Bitcoin use to validate new transactions and blocks?",
+    "answer": "Proof of work",
+    "category": "Programming",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "How many players from each team are on the field at one time in football (soccer)?",
     "answer": "11",
-    "category": "science",
+    "category": "Sports",
     "difficulty": "easy"
   },
   {
-    "question": "What is the programming answer 12?",
-    "answer": "break",
-    "category": "programming",
-    "difficulty": "extreme"
+    "question": "In which sport would you perform a slam dunk?",
+    "answer": "Basketball",
+    "category": "Sports",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 51?",
-    "answer": "motocross",
-    "category": "sports",
+    "question": "How many players from each team are on the court at one time in basketball?",
+    "answer": "5",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What sport is played at Wimbledon?",
+    "answer": "Tennis",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many interlocking rings are on the Olympic flag?",
+    "answer": "5",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In cricket, how many players are on each team?",
+    "answer": "11",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What sport uses a shuttlecock?",
+    "answer": "Badminton",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many holes are played in a standard round of golf?",
+    "answer": "18",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What shape is a rugby ball?",
+    "answer": "Oval",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which sport do players use a mallet to hit a ball while riding horses?",
+    "answer": "Polo",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What sport is often nicknamed 'the beautiful game'?",
+    "answer": "Football (soccer)",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players make up a volleyball team on the court?",
+    "answer": "6",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the maximum score possible from one turn of three darts, each hitting triple 20?",
+    "answer": "180",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In professional boxing, how many rounds are typically in a championship bout?",
+    "answer": "12",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes a single player scoring three goals in one soccer match?",
+    "answer": "A hat-trick",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which sport is the term 'love' used to mean a score of zero?",
+    "answer": "Tennis",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What piece of equipment is used to hit the ball in table tennis?",
+    "answer": "A paddle (racket)",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many players make up a standard baseball team's defensive lineup on the field?",
+    "answer": "9",
+    "category": "Sports",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country has won the most FIFA World Cup titles as of 2022?",
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which year were the first modern Olympic Games held?",
+    "answer": "1896",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes scoring one stroke under par on a single golf hole?",
+    "answer": "A birdie",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes scoring one stroke over par on a single golf hole?",
+    "answer": "A bogey",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In tennis, what is the term for winning a set by a score of 6-0?",
+    "answer": "A bagel (love set)",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which country is credited with inventing the sport of cricket?",
+    "answer": "England",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "How many points is a touchdown worth in American football, before the extra point?",
+    "answer": "6",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the standard interior diameter of a basketball hoop's rim, in inches?",
+    "answer": "18 inches",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which Grand Slam tennis tournament is played on clay courts?",
+    "answer": "The French Open",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which sport would an athlete perform a 'pirouette' as part of a scored routine?",
+    "answer": "Figure skating",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the maximum possible break in a single visit in snooker?",
+    "answer": "147",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "How often are the Summer Olympic Games held?",
+    "answer": "Every 4 years",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which sport is the Ryder Cup contested?",
+    "answer": "Golf",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which country has won the most Cricket World Cup titles as of 2023?",
+    "answer": "Australia",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the approximate standard length of a marathon in kilometers?",
+    "answer": "42.195 km",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In American football, how many points is a safety worth?",
+    "answer": "2",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which country won the very first FIFA World Cup in 1930?",
+    "answer": "Uruguay",
+    "category": "Sports",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who holds the record for most goals scored across FIFA World Cup tournaments, as of 2022?",
+    "answer": "Miroslav Klose",
+    "category": "Sports",
     "difficulty": "hard"
   },
   {
-    "question": "What is the maths answer 54?",
-    "answer": "55",
-    "category": "maths",
+    "question": "Which men's tennis player has won the most Grand Slam singles titles, as of 2024?",
+    "answer": "Novak Djokovic",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year did Usain Bolt set the current world record for the 100m sprint?",
+    "answer": "2009",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is Usain Bolt's world record time for the 100m sprint?",
+    "answer": "9.58 seconds",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country has won the most Olympic gold medals overall in history?",
+    "answer": "The United States",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a bowler taking three wickets on three consecutive deliveries in cricket?",
+    "answer": "A hat-trick",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which boxer, known as 'The Greatest', won Olympic gold in 1960?",
+    "answer": "Muhammad Ali",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Under the current Formula 1 points system, how many points does a race winner receive?",
+    "answer": "25",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which NBA player holds the record for most points scored by an individual in a single game?",
+    "answer": "Wilt Chamberlain",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country won the first-ever FIFA World Cup, held in 1930?",
+    "answer": "Uruguay",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes winning all four Grand Slam tennis titles in the same calendar year?",
+    "answer": "A calendar Grand Slam",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which sport is scoring 100 runs in a single innings called a 'century'?",
+    "answer": "Cricket",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "answer": "Brazil",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the maximum number of clubs a golfer is allowed to carry during a round?",
+    "answer": "14",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which swimmer has won the most Olympic gold medals of any athlete in history?",
+    "answer": "Michael Phelps",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year was the first Cricket World Cup held?",
+    "answer": "1975",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the common name of the trophy awarded to the winner of the UEFA Champions League?",
+    "answer": "The Champions League trophy",
+    "category": "Sports",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which country won the inaugural Cricket World Cup in 1975?",
+    "answer": "West Indies",
+    "category": "Sports",
     "difficulty": "extreme"
   },
   {
-    "question": "What is the astronomy answer 7?",
-    "answer": "Sun",
-    "category": "astronomy",
+    "question": "Who was the first gymnast to be awarded a perfect score of 10 at the Olympics?",
+    "answer": "Nadia Comăneci",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year was the three-point line introduced in the NBA?",
+    "answer": "1979",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which country has reached the most FIFA World Cup finals as of 2022?",
+    "answer": "Germany",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who holds the record for most career home runs in Major League Baseball history?",
+    "answer": "Barry Bonds",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the chess opening beginning 1.e4 e5 2.Nf3 Nc6 3.Bb5 commonly called?",
+    "answer": "The Ruy López (Spanish Opening)",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which country won the inaugural Rugby World Cup in 1987?",
+    "answer": "New Zealand",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who was the first tennis player, male or female, to complete a Career Golden Slam?",
+    "answer": "Steffi Graf",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What score is achieved by a perfect game in ten-pin bowling?",
+    "answer": "300",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did table tennis become an Olympic sport?",
+    "answer": "1988",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who is the youngest man to win a Grand Slam singles tennis title?",
+    "answer": "Michael Chang",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which horse famously won the UK Grand National three times?",
+    "answer": "Red Rum",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the term for scoring three strokes under par on a single golf hole?",
+    "answer": "An albatross (double eagle)",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which country has won the most Davis Cup titles in men's tennis?",
+    "answer": "The United States",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which player scored the fastest hat-trick in Premier League history, in about 2 minutes 56 seconds?",
+    "answer": "Sadio Mané",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did women's boxing first appear at the Olympic Games?",
+    "answer": "2012",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the name of the famous long-distance sled dog race held annually in Alaska?",
+    "answer": "The Iditarod",
+    "category": "Sports",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "answer": "1945",
+    "category": "History",
     "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 54?",
-    "answer": "paddling",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 18?",
-    "answer": "sublimation",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 58?",
-    "answer": "plasma",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 39?",
-    "answer": "metamorphic",
-    "category": "science",
+    "question": "Who was the first President of the United States?",
+    "answer": "George Washington",
+    "category": "History",
     "difficulty": "easy"
   },
   {
-    "question": "What is the iq logic answer 44?",
-    "answer": "99",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 35?",
-    "answer": "photosphere",
-    "category": "astronomy",
+    "question": "In which year did World War I begin?",
+    "answer": "1914",
+    "category": "History",
     "difficulty": "easy"
   },
   {
-    "question": "What is the biology answer 11?",
-    "answer": "mitochondrion",
-    "category": "biology",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 36?",
-    "answer": "72",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the science answer 60?",
-    "answer": "kinetic",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the iq logic answer 20?",
-    "answer": "100",
-    "category": "iq logic",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the astronomy answer 46?",
-    "answer": "red",
-    "category": "astronomy",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the sports answer 10?",
-    "answer": "badminton",
-    "category": "sports",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 57?",
-    "answer": "SELECT",
-    "category": "programming",
+    "question": "Which ancient civilization built the pyramids of Giza?",
+    "answer": "The ancient Egyptians",
+    "category": "History",
     "difficulty": "easy"
   },
   {
-    "question": "What is the astronomy answer 4?",
+    "question": "Which explorer is credited, from a European perspective, with reaching the Americas in 1492?",
+    "answer": "Christopher Columbus",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What wall divided East and West Berlin during the Cold War?",
+    "answer": "The Berlin Wall",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did the Berlin Wall fall?",
+    "answer": "1989",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the British Prime Minister for most of World War II?",
+    "answer": "Winston Churchill",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "answer": "France",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did India gain independence from British rule?",
+    "answer": "1947",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who wrote the United States Declaration of Independence?",
+    "answer": "Thomas Jefferson",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which empire was ruled by Julius Caesar?",
+    "answer": "The Roman Republic/Empire",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the ancient Greek philosopher who tutored Alexander the Great?",
+    "answer": "Aristotle",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the leader of Nazi Germany during World War II?",
+    "answer": "Adolf Hitler",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which 1215 document limited the power of the English king?",
+    "answer": "Magna Carta",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did the Titanic sink?",
+    "answer": "1912",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which war was fought between the northern and southern United States from 1861 to 1865?",
+    "answer": "The American Civil War",
+    "category": "History",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was Queen of the United Kingdom for most of the 19th century, lending her name to an era?",
+    "answer": "Queen Victoria",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which modern country was formerly known as Persia?",
+    "answer": "Iran",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which year did the French Revolution begin?",
+    "answer": "1789",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who was the first Emperor of the unified Roman Empire?",
+    "answer": "Augustus (Octavian)",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which treaty officially ended World War I?",
+    "answer": "The Treaty of Versailles",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who led the Soviet Union through most of World War II?",
+    "answer": "Joseph Stalin",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which year did the Russian Revolution take place?",
+    "answer": "1917",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which ancient wonder of the world stood in the harbor of Alexandria, Egypt?",
+    "answer": "The Lighthouse of Alexandria",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who led India's independence movement through a philosophy of nonviolent resistance?",
+    "answer": "Mahatma Gandhi",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which country was the first, and so far only, to use atomic bombs in warfare?",
+    "answer": "The United States",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which year did the Cuban Missile Crisis occur?",
+    "answer": "1962",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who was the last Tsar of Russia?",
+    "answer": "Nicholas II",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which explorer led the expedition that first circumnavigated the globe, though he died before it finished?",
+    "answer": "Ferdinand Magellan",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which year did Mao Zedong's Communist Party come to power in China?",
+    "answer": "1949",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which country built the Great Wall largely to defend against northern invasions?",
+    "answer": "China",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Who assassinated Archduke Franz Ferdinand, an event that helped trigger World War I?",
+    "answer": "Gavrilo Princip",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In which century did the Renaissance begin?",
+    "answer": "The 14th century",
+    "category": "History",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which 1648 peace treaty ended the Thirty Years' War?",
+    "answer": "The Peace of Westphalia",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Byzantine emperor codified Roman law into the Corpus Juris Civilis?",
+    "answer": "Justinian I",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year did Constantinople fall to the Ottoman Empire?",
+    "answer": "1453",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Chinese dynasty built the Forbidden City?",
+    "answer": "The Ming dynasty",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who founded the Mongol Empire in the early 13th century?",
+    "answer": "Genghis Khan",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year was the Magna Carta signed?",
+    "answer": "1215",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which ancient war was fought between Athens and Sparta?",
+    "answer": "The Peloponnesian War",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Egyptian queen formed political and romantic alliances with both Julius Caesar and Mark Antony?",
+    "answer": "Cleopatra",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year did the Spanish Armada attempt, and fail, to invade England?",
+    "answer": "1588",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the name given to the wave of political uprisings that swept across Europe in 1848?",
+    "answer": "The Revolutions of 1848",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who was crowned the first Holy Roman Emperor in 800 AD?",
+    "answer": "Charlemagne",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year did the partition of India and Pakistan occur?",
+    "answer": "1947",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which empire reached its peak under the rule of Suleiman the Magnificent?",
+    "answer": "The Ottoman Empire",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which year did the Bolsheviks seize power in Russia?",
+    "answer": "1917",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What was the name of the great ancient library located in Egypt, famed for its vast collection of scrolls?",
+    "answer": "The Library of Alexandria",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which French military leader rose to become Emperor before being exiled to Elba?",
+    "answer": "Napoleon Bonaparte",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which years did the Berlin Conference take place, dividing Africa among European colonial powers?",
+    "answer": "1884-1885",
+    "category": "History",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which 1494 treaty divided newly discovered lands outside Europe between Spain and Portugal?",
+    "answer": "The Treaty of Tordesillas",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which Carthaginian general is famous for crossing the Alps with war elephants to fight Rome?",
+    "answer": "Hannibal",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did the Council of Nicaea establish key doctrines of the early Christian church?",
+    "answer": "325 AD",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which dynasty, founded by Cyrus the Great, ruled the first Persian Empire?",
+    "answer": "The Achaemenid dynasty",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who was the last active pharaoh of ancient Egypt before Roman annexation?",
+    "answer": "Cleopatra VII",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did the Edict of Milan grant religious tolerance to Christians in the Roman Empire?",
+    "answer": "313 AD",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which long conflict, fought from 1337 to 1453, pitted England against France?",
+    "answer": "The Hundred Years' War",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who was the Aztec emperor at the time of the Spanish conquest led by Hernán Cortés?",
+    "answer": "Moctezuma II",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did the Visigoths, led by Alaric, sack the city of Rome?",
+    "answer": "410 AD",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which empire had Tenochtitlan as its capital city?",
+    "answer": "The Aztec Empire",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which Inca emperor was captured and later executed by Francisco Pizarro?",
+    "answer": "Atahualpa",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year was the Peace of Westphalia signed, ending the Thirty Years' War?",
+    "answer": "1648",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which 480 BC battle saw a small Greek force, including Spartans, delay a much larger Persian army?",
+    "answer": "The Battle of Thermopylae",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Who founded the Mauryan Empire in ancient India?",
+    "answer": "Chandragupta Maurya",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did the Great Schism divide the Christian church into Roman Catholic and Eastern Orthodox branches?",
+    "answer": "1054",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which female pharaoh of ancient Egypt is known for her long, prosperous reign and building projects?",
+    "answer": "Hatshepsut",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In which year did the Umayyad Caliphate fall to the Abbasids?",
+    "answer": "750 AD",
+    "category": "History",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many planets are in our Solar System?",
+    "answer": "8",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of Earth's only natural satellite?",
+    "answer": "The Moon",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet has the most prominent ring system?",
+    "answer": "Saturn",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which is the largest planet in our Solar System?",
+    "answer": "Jupiter",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes a large system of stars, gas and dust bound together by gravity?",
+    "answer": "A galaxy",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the galaxy that contains our Solar System?",
+    "answer": "The Milky Way",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
     "answer": "Mercury",
-    "category": "astronomy",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the maths answer 52?",
-    "answer": "53",
-    "category": "maths",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the programming answer 18?",
-    "answer": "boolean",
-    "category": "programming",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 40?",
-    "answer": "magma",
-    "category": "science",
-    "difficulty": "moderate"
-  },
-  {
-    "question": "What is the science answer 62?",
-    "answer": "energy",
-    "category": "science",
-    "difficulty": "extreme"
-  },
-  {
-    "question": "What is the programming answer 25?",
-    "answer": "graph",
-    "category": "programming",
+    "category": "Astronomy",
     "difficulty": "easy"
   },
   {
-    "question": "What is the sports answer 2?",
-    "answer": "basketball",
-    "category": "sports",
+    "question": "What term describes a rocky object orbiting the Sun, smaller than a planet and found mostly between Mars and Jupiter?",
+    "answer": "An asteroid",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a 'shooting star' actually called scientifically?",
+    "answer": "A meteor",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes a piece of rock or metal from space that survives landing on Earth's surface?",
+    "answer": "A meteorite",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which is the smallest planet in our Solar System?",
+    "answer": "Mercury",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the path a planet follows as it moves around the Sun?",
+    "answer": "An orbit",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What causes day and night on Earth?",
+    "answer": "Earth's rotation on its axis",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the time it takes Earth to complete one orbit of the Sun?",
+    "answer": "One year",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which planet is often called Earth's 'twin' due to its similar size?",
+    "answer": "Venus",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes a large ball of hot, glowing gas that produces its own light and heat?",
+    "answer": "A star",
+    "category": "Astronomy",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What force keeps planets in orbit around the Sun?",
+    "answer": "Gravity",
+    "category": "Astronomy",
     "difficulty": "moderate"
   },
   {
-    "question": "What is the programming answer 58?",
-    "answer": "INSERT",
-    "category": "programming",
+    "question": "What term describes the collapsed core of a massive star whose gravity is so strong not even light can escape?",
+    "answer": "A black hole",
+    "category": "Astronomy",
     "difficulty": "moderate"
+  },
+  {
+    "question": "Which spacecraft mission first landed humans on the Moon, in 1969?",
+    "answer": "Apollo 11",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the name of the visible surface layer of the Sun?",
+    "answer": "The photosphere",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the explosive death of a massive star, producing an intense burst of light?",
+    "answer": "A supernova",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which object was reclassified from a planet to a 'dwarf planet' in 2006?",
+    "answer": "Pluto",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What causes the changing phases of the Moon as seen from Earth?",
+    "answer": "The changing angle of sunlight on the Moon as it orbits Earth",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Approximately how long does sunlight take to reach Earth?",
+    "answer": "About 8 minutes",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the point in a planet's orbit when it is closest to the Sun?",
+    "answer": "Perihelion",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the point in a planet's orbit when it is farthest from the Sun?",
+    "answer": "Aphelion",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which space telescope, launched in 1990, has produced many of the most detailed images of deep space?",
+    "answer": "The Hubble Space Telescope",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes a cloud of gas and dust in space, often a birthplace of stars?",
+    "answer": "A nebula",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which planet has the most confirmed moons, according to recent counts?",
+    "answer": "Saturn",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the imaginary line around which a planet rotates?",
+    "answer": "Its axis",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes an eclipse where the Moon passes between the Sun and Earth?",
+    "answer": "A solar eclipse",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes an eclipse where Earth passes between the Sun and the Moon?",
+    "answer": "A lunar eclipse",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What theory describes the origin of the universe from an extremely hot, dense initial state?",
+    "answer": "The Big Bang theory",
+    "category": "Astronomy",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the name of the boundary around a black hole beyond which nothing can escape?",
+    "answer": "The event horizon",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the stretching of light from distant galaxies toward longer wavelengths, evidence of an expanding universe?",
+    "answer": "Cosmological redshift",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the name of the large galaxy nearest to the Milky Way, on a collision course with it in billions of years?",
+    "answer": "The Andromeda Galaxy",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a pulsating star whose brightness varies predictably, used to measure cosmic distances?",
+    "answer": "A Cepheid variable",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What process allows stars to generate energy by fusing hydrogen into helium?",
+    "answer": "Nuclear fusion",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the faint leftover radiation from the early universe, discovered in 1965?",
+    "answer": "The cosmic microwave background radiation",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the extremely dense remnant left after a massive star's supernova, composed almost entirely of neutrons?",
+    "answer": "A neutron star",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What unit of distance equals the distance light travels in one year?",
+    "answer": "A light-year",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which space probe became the first human-made object to enter interstellar space?",
+    "answer": "Voyager 1",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a hypothetical form of matter that emits no light but is inferred from its gravitational effects?",
+    "answer": "Dark matter",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the mysterious force believed to cause the universe's expansion to accelerate?",
+    "answer": "Dark energy",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the region around a star where conditions could allow liquid water on a planet's surface?",
+    "answer": "The habitable zone (Goldilocks zone)",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the extremely bright, compact core of a galaxy powered by a supermassive black hole?",
+    "answer": "An active galactic nucleus",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What project captured the first-ever direct image of a black hole, released in 2019?",
+    "answer": "The Event Horizon Telescope",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the apparent shift in a nearby star's position against distant background stars, used to measure stellar distance?",
+    "answer": "Parallax",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the theoretical point of infinite density believed to exist at the center of a black hole?",
+    "answer": "A singularity",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a planet that drifts through space without orbiting any star?",
+    "answer": "A rogue planet",
+    "category": "Astronomy",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What equation estimates the number of communicating civilizations that might exist in our galaxy?",
+    "answer": "The Drake equation",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a theoretical tunnel-like structure connecting two distant points in spacetime?",
+    "answer": "A wormhole",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the boundary where the Sun's solar wind is halted by the interstellar medium?",
+    "answer": "The heliopause",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a white dwarf exploding after accreting enough matter from a companion star to exceed a critical mass?",
+    "answer": "A Type Ia supernova",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the name of the mass limit, about 1.4 solar masses, above which a white dwarf will collapse into a neutron star?",
+    "answer": "The Chandrasekhar limit",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What hypothesis proposes the Moon formed from debris after a Mars-sized body struck the early Earth?",
+    "answer": "The giant-impact hypothesis",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the gravitational effect that causes the Moon to always show the same face to Earth?",
+    "answer": "Tidal locking",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "Which spacecraft achieved the first soft landing on a comet, in 2014?",
+    "answer": "Philae",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a system of three stars gravitationally bound together?",
+    "answer": "A triple star system",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What NASA telescope, launched in 2021, is designed to observe the universe primarily in infrared light?",
+    "answer": "The James Webb Space Telescope",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What constant measures the rate of expansion of the universe, expressed in km/s/Mpc?",
+    "answer": "The Hubble constant",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the name of the largest object in the asteroid belt, also classified as a dwarf planet?",
+    "answer": "Ceres",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the region beyond Neptune containing many icy bodies, including Pluto?",
+    "answer": "The Kuiper Belt",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the name of the theoretical spherical shell of icy objects believed to surround the outer Solar System?",
+    "answer": "The Oort Cloud",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What theoretical process, proposed by Roger Penrose, could extract rotational energy from a spinning black hole?",
+    "answer": "The Penrose process",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What was the first exoplanet discovered orbiting a Sun-like star, found in 1995?",
+    "answer": "51 Pegasi b",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a galaxy's central bulge and disk of stars visible as a hazy band across a dark sky?",
+    "answer": "The Milky Way's galactic plane",
+    "category": "Astronomy",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "answer": "Cell",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is commonly called the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What gas do humans breathe in for respiration?",
+    "answer": "Oxygen",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What gas do humans exhale?",
+    "answer": "Carbon dioxide",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process by which plants make their own food using sunlight called?",
+    "answer": "Photosynthesis",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many chambers does the human heart have?",
+    "answer": "4",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the largest organ of the human body?",
+    "answer": "Skin",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What part of a plant mainly absorbs water from the soil?",
+    "answer": "The roots",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes animals that eat only plants?",
+    "answer": "Herbivores",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes animals that eat only meat?",
+    "answer": "Carnivores",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the green pigment in plants called?",
+    "answer": "Chlorophyll",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "answer": "206",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the scientific study of living organisms called?",
+    "answer": "Biology",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What organ pumps blood throughout the human body?",
+    "answer": "The heart",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of blood cell mainly helps the body fight infection?",
+    "answer": "White blood cells",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process by which humans and animals take in oxygen and release carbon dioxide called?",
+    "answer": "Respiration",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for young frogs before they grow legs?",
+    "answer": "Tadpoles",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sense organ do humans use to see?",
+    "answer": "The eyes",
+    "category": "Biology",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the genetic material found in the nucleus of cells?",
+    "answer": "DNA",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the type of cell division that produces two identical daughter cells?",
+    "answer": "Mitosis",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the type of cell division that produces sex cells (gametes)?",
+    "answer": "Meiosis",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes an organism's complete set of genetic material?",
+    "answer": "Its genome",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What structure controls what substances enter and exit a cell?",
+    "answer": "The cell membrane",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What are the basic building blocks of proteins called?",
+    "answer": "Amino acids",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the set of chemical processes by which the body converts food into energy?",
+    "answer": "Metabolism",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which organ in the human body produces the hormone insulin?",
+    "answer": "The pancreas",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes a trait passed from parent to offspring?",
+    "answer": "Heredity",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Which scientist proposed the theory of evolution by natural selection?",
+    "answer": "Charles Darwin",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the variety of life found in a particular habitat or on Earth as a whole?",
+    "answer": "Biodiversity",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the process by which plants lose water vapor through small pores in their leaves called?",
+    "answer": "Transpiration",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What are the small pores on a leaf's surface, used for gas exchange, called?",
+    "answer": "Stomata",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the fluid, cell-free part of blood called?",
+    "answer": "Plasma",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes organisms, such as fungi and bacteria, that break down dead organic matter?",
+    "answer": "Decomposers",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What hormone, produced by the pancreas, regulates blood sugar levels?",
+    "answer": "Insulin",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes a relationship between two species in which both benefit?",
+    "answer": "Mutualism",
+    "category": "Biology",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What term describes the process by which cells produce energy using oxygen?",
+    "answer": "Aerobic respiration",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What are the four nitrogenous bases that make up DNA?",
+    "answer": "Adenine, thymine, cytosine, and guanine",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which enzyme unwinds the DNA double helix during replication?",
+    "answer": "Helicase",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes a segment of DNA that codes for a particular protein or trait?",
+    "answer": "A gene",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the process by which messenger RNA is synthesized from a DNA template called?",
+    "answer": "Transcription",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the process by which proteins are synthesized from messenger RNA called?",
+    "answer": "Translation",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes an organism's observable physical characteristics?",
+    "answer": "Its phenotype",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes an organism's underlying genetic makeup?",
+    "answer": "Its genotype",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which immune cells directly attack cells that are infected or cancerous?",
+    "answer": "Cytotoxic T cells",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What structure gives plant cells rigidity and shape, absent in animal cells?",
+    "answer": "The cell wall",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the scientific study of heredity and variation in living organisms called?",
+    "answer": "Genetics",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which scientist, known as the 'father of genetics', discovered the laws of inheritance using pea plants?",
+    "answer": "Gregor Mendel",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes an organism carrying two different alleles for a given gene?",
+    "answer": "Heterozygous",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the gradual change in a species' inherited traits over successive generations?",
+    "answer": "Evolution",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes the specific role and set of conditions an organism occupies within its ecosystem?",
+    "answer": "Its ecological niche",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What fluid-filled organelle stores water, waste and nutrients within a plant cell?",
+    "answer": "The vacuole",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What term describes proteins that speed up biochemical reactions inside living cells?",
+    "answer": "Enzymes",
+    "category": "Biology",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the name given to the short DNA fragments synthesized discontinuously on the lagging strand during replication?",
+    "answer": "Okazaki fragments",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What large protein complex degrades unneeded or damaged proteins inside cells?",
+    "answer": "The proteasome",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes programmed cell death, a normal part of development and tissue maintenance?",
+    "answer": "Apoptosis",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What structures at the ends of chromosomes protect them from deterioration during cell division?",
+    "answer": "Telomeres",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What enzyme lengthens telomeres and is often reactivated abnormally in cancer cells?",
+    "answer": "Telomerase",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What laboratory technique is used to make many copies of a specific segment of DNA?",
+    "answer": "Polymerase chain reaction (PCR)",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What gene-editing technology uses a guide RNA and an associated protein to cut DNA at a specific site?",
+    "answer": "CRISPR-Cas9",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes genes located close together on a chromosome tending to be inherited together?",
+    "answer": "Genetic linkage",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the process by which a single fertilized egg develops into an organism with many specialized cell types?",
+    "answer": "Cell differentiation",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What structure on a chromosome joins the two sister chromatids during cell division?",
+    "answer": "The centromere",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What theory proposes that mitochondria and chloroplasts descended from free-living bacteria engulfed by early eukaryotic cells?",
+    "answer": "The endosymbiotic theory",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a change in the nucleotide sequence of an organism's DNA?",
+    "answer": "A mutation",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What process edits pre-messenger RNA by removing introns and joining exons before translation?",
+    "answer": "RNA splicing",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes stem cells capable of differentiating into almost any cell type in the body?",
+    "answer": "Pluripotent stem cells",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes a chemical messenger secreted by cells to communicate with other cells, often via the bloodstream?",
+    "answer": "A hormone",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What term describes the loss of genetic diversity following a drastic, sudden reduction in a population's size?",
+    "answer": "A genetic bottleneck",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What immune cells produce antibodies to help fight infection?",
+    "answer": "B lymphocytes (B cells)",
+    "category": "Biology",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is 47 + 68?",
+    "answer": "115",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 92 - 37?",
+    "answer": "55",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 × 8?",
+    "answer": "96",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 144 ÷ 12?",
+    "answer": "12",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 15% of 200?",
+    "answer": "30",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square of 14?",
+    "answer": "196",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the square root of 225?",
+    "answer": "15",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the perimeter of a square with side 9m?",
+    "answer": "36m",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the area of a rectangle with length 12m and breadth 7m?",
+    "answer": "84m²",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 6 × 7 ÷ 2?",
+    "answer": "21",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 250 - 175?",
+    "answer": "75",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 9²?",
+    "answer": "81",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 13 × 13?",
+    "answer": "169",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 100 ÷ 4?",
+    "answer": "25",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the value of 8 + 6 × 3?",
+    "answer": "26",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is half of 156?",
+    "answer": "78",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the cube of 3?",
+    "answer": "27",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 45% of 60?",
+    "answer": "27",
+    "category": "Maths",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the value of (15 + 5) × 3 - 10?",
+    "answer": "50",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is 35% of 480?",
+    "answer": "168",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the simple interest on Rs. 4000 at 5% per annum for 3 years?",
+    "answer": "Rs. 600",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the average of 14, 22, 18, 26 and 30?",
+    "answer": "22",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If the ratio of two numbers is 4:5 and their sum is 90, what is the smaller number?",
+    "answer": "40",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the area of a triangle with base 18m and height 12m?",
+    "answer": "108m²",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the circumference of a circle with radius 14cm, using π = 22/7?",
+    "answer": "88cm",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the area of a circle with radius 14cm, using π = 22/7?",
+    "answer": "616cm²",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the value of 3/5 + 2/15?",
+    "answer": "11/15",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "A car travels 150km in 2.5 hours. What is its average speed?",
+    "answer": "60km/h",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If 7 books cost Rs. 350, what is the cost of 12 books?",
+    "answer": "Rs. 600",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the LCM of 12 and 18?",
+    "answer": "36",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the HCF of 24 and 36?",
+    "answer": "12",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is the volume of a cuboid with length 8m, breadth 5m and height 4m?",
+    "answer": "160m³",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If x - 12 = 28, what is the value of x?",
+    "answer": "40",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If 4x = 96, what is the value of x?",
+    "answer": "24",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "A shopkeeper buys an item for Rs. 600 and sells it for Rs. 750. What is the profit percentage?",
+    "answer": "25%",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What is 60% of 350?",
+    "answer": "210",
+    "category": "Maths",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What are the roots of the quadratic equation x² - 7x + 12 = 0?",
+    "answer": "x = 3 or x = 4",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the compound interest on Rs. 10,000 at 10% per annum for 2 years, compounded annually?",
+    "answer": "Rs. 2,100",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In how many ways can 3 books be selected from 5 different books?",
+    "answer": "10",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In how many ways can 3 people be arranged in a row from a group of 5?",
+    "answer": "60",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the probability of rolling a sum of 7 with two standard dice?",
+    "answer": "1/6",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of sin 30°?",
+    "answer": "1/2",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of cos 60°?",
+    "answer": "1/2",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of tan 45°?",
+    "answer": "1",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of log₁₀ 1000?",
+    "answer": "3",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of log₂ 32?",
+    "answer": "5",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the sum of the first 10 natural numbers?",
+    "answer": "55",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the sum of the first 10 terms of the arithmetic sequence starting at 2 with common difference 3?",
+    "answer": "155",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the HCF of 36, 60 and 84?",
+    "answer": "12",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the value of 5! (5 factorial)?",
+    "answer": "120",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Simplify 2³ × 2⁴ and express the result as a power of 2.",
+    "answer": "2⁷ (128)",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the next term in the geometric sequence 3, 6, 12, 24, ...?",
+    "answer": "48",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the sum of the interior angles of a hexagon?",
+    "answer": "720°",
+    "category": "Maths",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the derivative of f(x) = 3x² + 5x with respect to x?",
+    "answer": "6x + 5",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the integral of f(x) = 2x with respect to x?",
+    "answer": "x² + C",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What are the roots of x² - 4x + 1 = 0, expressed in surd form?",
+    "answer": "x = 2 ± √3",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the value of i², where i is the imaginary unit?",
+    "answer": "-1",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the product of (2 + 3i) and (1 - i)?",
+    "answer": "5 + i",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the determinant of the matrix [[4, 3], [2, 5]]?",
+    "answer": "14",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In how many ways can 4 items be chosen from 10 distinct items?",
+    "answer": "210",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the probability of drawing 2 aces in a row from a standard deck without replacement?",
+    "answer": "1/221",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the value of log₂ 1?",
+    "answer": "0",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...?",
+    "answer": "2",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the nth-term formula for the sequence 2, 5, 8, 11, ...?",
+    "answer": "3n - 1",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "How many positive divisors does 360 have?",
+    "answer": "24",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the value of 7 mod 3?",
+    "answer": "1",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the sum of the first 20 natural numbers?",
+    "answer": "210",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the value of the binomial coefficient C(12, 5)?",
+    "answer": "792",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the area under the curve y = x² between x = 0 and x = 3?",
+    "answer": "9",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the value of e raised to the power 0 (e⁰)?",
+    "answer": "1",
+    "category": "Maths",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What number comes next in the series: 2, 4, 6, 8, ?",
+    "answer": "10",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 5, 10, 15, 20, ?",
+    "answer": "25",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 1, 3, 5, 7, ?",
+    "answer": "9",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 3, 6, 9, 12, ?",
+    "answer": "15",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What letter comes next in the series: A, C, E, G, ?",
+    "answer": "I",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Complete the analogy: Hand is to Glove as Foot is to ___.",
+    "answer": "Sock",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Complete the analogy: Bird is to Nest as Bee is to ___.",
+    "answer": "Hive",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which number is the odd one out: 3, 5, 9, 7, 4?",
+    "answer": "4 (it is the only even number)",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 10, 20, 30, 40, ?",
+    "answer": "50",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Complete the analogy: Puppy is to Dog as Kitten is to ___.",
+    "answer": "Cat",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What letter comes next in the series: Z, Y, X, W, ?",
+    "answer": "V",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which word does not belong: Apple, Banana, Carrot, Mango?",
+    "answer": "Carrot (it is a vegetable, the rest are fruits)",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 100, 90, 80, 70, ?",
+    "answer": "60",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Complete the analogy: Doctor is to Hospital as Teacher is to ___.",
+    "answer": "School",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 2, 4, 8, 16, ?",
+    "answer": "32",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which shape has exactly three sides?",
+    "answer": "A triangle",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If MONDAY is coded as NPOEBZ by shifting each letter forward by one, how is TUESDAY coded the same way?",
+    "answer": "UVFTEBZ",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 1, 4, 9, 16, ?",
+    "answer": "25",
+    "category": "IQ Logic",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What number comes next in the series: 1, 1, 2, 3, 5, 8, ?",
+    "answer": "13",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 3, 9, 27, 81, ?",
+    "answer": "243",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If, in a certain code, CAT is written as DBU by shifting each letter forward by one, how is DOG written?",
+    "answer": "EPH",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "A man points to a photo and says, 'She is the daughter of my mother's only son.' If the man has no brothers, how is the woman related to him?",
+    "answer": "She is his daughter",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If North is renamed East, East is renamed South, South is renamed West, and West is renamed North, what is the new name for the original North?",
+    "answer": "East",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Find the odd one out: 8, 27, 64, 100, 125.",
+    "answer": "100 (it is not a perfect cube)",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 2, 5, 10, 17, 26, ?",
+    "answer": "37",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What letter comes next in the series: A, D, G, J, ?",
+    "answer": "M",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "If all roses are flowers, and all flowers need water, do all roses need water?",
+    "answer": "Yes",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?",
+    "answer": "A is D's uncle",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 4, 9, 16, 25, ?",
+    "answer": "36",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 7, 14, 28, 56, ?",
+    "answer": "112",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "At 3:15 on a clock, what is the angle between the hour and minute hands?",
+    "answer": "7.5°",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "Rearrange the letters of 'LISTEN' to form another meaningful English word.",
+    "answer": "SILENT",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 6, 11, 21, 41, ?",
+    "answer": "81",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "In a row of children, Rahul is 7th from the left and 12th from the right. How many children are in the row?",
+    "answer": "18",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 100, 50, 25, 12.5, ?",
+    "answer": "6.25",
+    "category": "IQ Logic",
+    "difficulty": "moderate"
+  },
+  {
+    "question": "What number comes next in the series: 2, 3, 5, 8, 13, 21, ?",
+    "answer": "34",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A man walks 5 km north, then 3 km east, then 5 km south. How far is he from his starting point?",
+    "answer": "3 km",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If today is Wednesday, what day of the week will it be 100 days from now?",
+    "answer": "Friday",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The sum of a father's and son's ages is 60. Six years ago, the father was five times as old as the son. What is the son's current age?",
+    "answer": "14",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "At 4:00 on a clock, what is the angle between the hour and minute hands?",
+    "answer": "120°",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A train 120m long crosses a pole in 6 seconds. What is its speed in km/h?",
+    "answer": "72 km/h",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If, in a code, BOOK is written as CPPL by shifting each letter forward by one, how is PEN written?",
+    "answer": "QFO",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+    "answer": "She is his mother",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If 5 machines take 5 minutes to make 5 widgets, how long would 100 machines take to make 100 widgets?",
+    "answer": "5 minutes",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A is twice as old as B. Five years ago, A was three times as old as B. What is B's current age?",
+    "answer": "10",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What number comes next in the series: 1, 4, 9, 16, 25, 36, ?",
+    "answer": "49",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If the day before yesterday was Thursday, what day will tomorrow be?",
+    "answer": "Sunday",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What number comes next in the series: 3, 7, 15, 31, 63, ?",
+    "answer": "127",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two trains leave the same station at the same time, moving in opposite directions at 60 km/h and 80 km/h. After how many hours will they be 420 km apart?",
+    "answer": "3 hours",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Look at this series of first letters of the months: J, F, M, A, M, J, ? What comes next?",
+    "answer": "J (July)",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A boat travels 30 km downstream in 2 hours and 30 km upstream in 3 hours. What is the boat's speed in still water?",
+    "answer": "12.5 km/h",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A father is 4 times as old as his son. In 20 years, he will be twice as old as his son. What is the son's current age?",
+    "answer": "10",
+    "category": "IQ Logic",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A cistern can be filled by pipe A in 6 hours and by pipe B in 8 hours, while pipe C alone can empty it in 12 hours. If all three pipes are opened together, how long will the cistern take to fill?",
+    "answer": "4.8 hours",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In how many ways can the letters of the word 'LOGIC' be arranged so that the two vowels always stay together?",
+    "answer": "48",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A is twice as efficient as B, and together they finish a job in 12 days. In how many days can A alone finish it?",
+    "answer": "18 days",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "If the probability of an event occurring is 0.3, what is the probability of it not occurring?",
+    "answer": "0.7",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In a group of 60 people, 25 like tea, 20 like coffee, and 10 like both. How many like neither?",
+    "answer": "25",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A sum of money doubles itself in 8 years at simple interest. In how many years will it triple?",
+    "answer": "16 years",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What number comes next in the series: 2, 6, 12, 20, 30, ?",
+    "answer": "42",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A man faces north, turns 135° clockwise, then turns another 180° clockwise. Which direction does he now face?",
+    "answer": "North-west",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What is the smallest positive number that leaves a remainder of 3 when divided by 5, and a remainder of 4 when divided by 7?",
+    "answer": "18",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "If log₂(x) = 5, what is the value of x?",
+    "answer": "32",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "In a 200m race, A beats B by 20m while running at a speed of 10 m/s. What is B's speed?",
+    "answer": "9 m/s",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A bag contains 4 red and 6 blue balls. If two balls are drawn at random without replacement, what is the probability both are red?",
+    "answer": "2/15",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "What number comes next in the series: 5, 11, 23, 47, 95, ?",
+    "answer": "191",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A father's age is three times his son's age. In 12 years, he will be twice his son's age. What is the father's current age?",
+    "answer": "36",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "How many trailing zeros are there in 100! (100 factorial)?",
+    "answer": "24",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "If the sum of the interior angles of a regular polygon is 1440°, how many sides does it have?",
+    "answer": "10",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
+  },
+  {
+    "question": "A man can row 6 km/h in still water, and the current flows at 2 km/h. How long will he take to row 16 km downstream?",
+    "answer": "2 hours",
+    "category": "IQ Logic",
+    "difficulty": "extreme"
   }
 ]
