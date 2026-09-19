@@ -293,14 +293,14 @@
         let QuestionCount = null;
         let allquestions = [];
         let questionss = [];
+        let format_store = [];
+        let qni = [];
+        let qnnum = null;
         const mainform = document.querySelector('form');
-<<<<<<< HEAD
-=======
 
         const categoryButtons = document.querySelectorAll('.category-options .btn');
 
         const questionInput = document.getElementById('custom-q-input');
->>>>>>> parent of 9d3343f (refactor: update form ID and enhance form submission logic; add choose category page)
 
         const startButton = document.getElementById('start-btn');
 
@@ -311,90 +311,12 @@
         const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
         const ps = document.querySelectorAll('.ps');
         const revealbtn = document.getElementById('reveal');
+        const display = document.getElementById('display');
 
-<<<<<<< HEAD
-
-        const difficultyButtons = document.querySelectorAll('.difficulty-options .btn');
-        const ps = document.querySelectorAll('.ps');
-        const revealbtn = document.getElementById('reveal');
-
-=======
->>>>>>> parent of 9d3343f (refactor: update form ID and enhance form submission logic; add choose category page)
         categoryButtons.forEach(button => {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
                 categoryButtons.forEach(btn => btn.classList.remove('active'));
-<<<<<<< HEAD
-
-                    button.classList.add('active');
-                    category = button.dataset.category ? button.dataset.category.toLowerCase() : null;
-                });
-            });
-
-            // Difficulty selection
-            difficultyButtons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    difficultyButtons.forEach(btn => btn.classList.remove('active'));
-
-                    button.classList.add('active');
-
-                    difficulty = button.dataset.difficulty;
-                });
-            });
-
-        questionInput.addEventListener('input',()=>{
-            QuestionCount= questionInput.value;
-        });
-
-        mainform.addEventListener('submit', (e)=>{
-            e.preventDefault();
-        if(!Category || !Difficulty || !QuestionCount){
-            alert("Please select valid category, difficulty and the number of questions!")
-            return;
-        }            
-        console.log(Category);
-            console.log(Difficulty);
-            console.log(QuestionCount);
-            fetch('/save', {
-                method: 'POST',
-                headers: {'Content-type': 'application/json'},
-                body: JSON.stringify({
-                    category: Category,
-                    diff: Difficulty,
-                    limit: QuestionCount
-                })
-            })
-            .then(response=> response.json())
-            .then(result=>{
-                if(result.success){
-                    allquestions = result.questions;
-                    console.log(`The random fun num from backend is ${result.random}`);
-                    console.log(allquestions);
-                    document.getElementById('container1').style.display = "none";
-                    document.getElementById('quiz').style.display="block";
-                    const qns = document.querySelectorAll('.qn');
-            for(let i=0; i<allquestions.length; i++){
-                const format = `
-                <p class="ps">
-                    ${i+1}. ${allquestions[i].question}
-                </p>     
-                `;
-                qns[i].innerHTML = format;
-                console.log(qns[i].innerHTML); 
-
-            }
-            qns.forEach(qn=>{
-                qn.addEventListener('click', (e)=>{
-                    e.preventDefault();
-                    qns.forEach(q=>{
-                        q.classList.remove('activee');
-                    })
-                    qn.classList.add('activee');
-                })
-            })
-
-=======
 
                 button.classList.add('active');
                 Category = button.dataset.category.toLowerCase();
@@ -443,16 +365,30 @@
                     document.getElementById('container1').style.display = "none";
                     document.getElementById('quiz').style.display="block";
                     const qns = document.querySelectorAll('.qn');
+                    
+                    qns.forEach((qn,index)=>{
+                        qn.setAttribute('data-number', index+1);
+                    })
+                    console.log(document.querySelector('[data-number="1"]'))
             for(let i=0; i<allquestions.length; i++){
                 const format = `
                 <p class="ps">
                     ${i+1}. ${allquestions[i].question}
                 </p>     
                 `;
-                qns[i].innerHTML = format;
-                console.log(qns[i].innerHTML); 
+                format_store[i] = format;
+                
+                console.log(format_store[i]); 
 
             }
+            const qnnum1 = allquestions.length;
+            console.log(qnnum1)
+                   const displayboxes =  Array.from(qns).slice(0,qnnum1);
+                   console.log(displayboxes);
+                   for(i=0;i<allquestions.length;i++){
+                   displayboxes[i].style.display= 'flex';
+                   }
+                
             qns.forEach(qn=>{
                 qn.addEventListener('click', (e)=>{
                     e.preventDefault();
@@ -460,23 +396,29 @@
                         q.classList.remove('activee');
                     })
                     qn.classList.add('activee');
+                    qnnum = qn.dataset.number;
                 })
             })
 
->>>>>>> parent of 9d3343f (refactor: update form ID and enhance form submission logic; add choose category page)
-                    const active_question = document.querySelector('.activee');
             revealbtn.addEventListener('click', (e)=>{
+                const active_question = document.querySelector('.activee');
                 if(!active_question){
                     alert("Please select a question!");
                     return;
                 }
                 const selected_question = active_question.innerText;
                 console.log(selected_question);
+                console.log(allquestions[qnnum-1]);
+                qni = allquestions[qnnum-1];
+                display.innerHTML = qni.question;
+
+
             })
                 }
             })
     })
         })
+
         
     </script>
 </body>
