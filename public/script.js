@@ -1,5 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("form");
+  const click = new Audio('minecraft_click.mp3');
+  const sounds = document.querySelectorAll('a, input[type="text"], input[type="radios"], input[type="number"], button, .box')
+  sounds.forEach((sound)=>{
+    sound.addEventListener('click', ()=>{
+      click.currentTime = 0;
+      click.play();
+    })
+  })
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     formdata = new FormData(form);
