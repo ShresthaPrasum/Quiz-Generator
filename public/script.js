@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const clue1 = dataa.map((item) => item.clue1);
           const clue2 = dataa.map((item) => item.clue2);
           const clue3 = dataa.map((item) => item.clue3);
+          const answer = dataa.map((item)=> item.player);
           document.getElementById("container").style.display = "none";
           document.getElementById("don-container").style.display = "flex";
 
@@ -44,6 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
           });
 
           const revealbtn = document.getElementById("revealll");
+
+            guess.style.display="flex";
           revealbtn.addEventListener("click", () => {
             const selected_box = document.querySelector(".active");
             const s1 = selected_box.dataset.number;
@@ -52,11 +55,13 @@ document.addEventListener("DOMContentLoaded", () => {
           let i = 0;
 
           function helo(){
+             const guess = document.querySelector('#guess');
+             const ansbtn = document.querySelector('#anssubmit')
           const reveal_clue = document.getElementById("reveal_clue");
           const cluess = Array.from(document.querySelectorAll(".cluess"));
           console.log(cluess);
           reveal_clue.addEventListener("click", () => {
-            const s21 = document.querySelector(".active").dataset.number;
+              let s21 = document.querySelector(".active").dataset.number;
             if (i > 2) {
               alert(`You already have gotten the clues dawg!`);
               return;
@@ -76,9 +81,24 @@ document.addEventListener("DOMContentLoaded", () => {
                             `;
             }
             i++;
-            const guessed = document.querySelector('input[type="text"]').value;
+            
+        });
+         
+        
+          ansbtn.addEventListener('click', ()=>{
+              const guessed = document.querySelector('#guess').value.trim().toLowerCase();
+              s21 = document.querySelector(".active").dataset.number;
+              const realans = answer[s21-1].trim().toLowerCase();
+              console.log(realans);   
 
-          });
+               if(guessed==realans){
+                   alert(`You GUESSED IT!!! It was ${guessed}`);
+               }else if(guessed!=realans){
+                   alert(`WRONG!`);
+                   return;
+               }
+            
+          })
         }
         helo();
           const hidebtn = document.getElementById("hide");
