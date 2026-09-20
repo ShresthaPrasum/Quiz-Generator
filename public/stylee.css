@@ -1,18 +1,24 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Bubblegum+Sans&display=swap");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #4a00e0, #8e2de2);
     color: #fff;
+=======
+    color: #fff;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+>>>>>>> 9cfba181093d2f9f1754dc34d579962c35ad8564
     font-family: 'Poppins', sans-serif;
-    /* padding: 10px; */
 }
+<<<<<<< HEAD
 
 #particle-canvas {
     position: fixed;
@@ -25,14 +31,65 @@ body{
 }
 
 #generate h2{
+=======
+header{
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+li{
+    font-style: bold;
+    gap: 70px;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    position: absolute;
+    right: 30px;
+}
+.rightt{
+    position: absolute;
+    right: 300px;
+}
+.righttt{
+    position: absolute;
+    right: 180px;
+}
+#logo{
+    margin-left: 15px;
+    color: rgb(255, 196, 0);
+}
+#about{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 20px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+#about h2, #generate h2{
+>>>>>>> 9cfba181093d2f9f1754dc34d579962c35ad8564
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    color: #00e1ff;
 }
 #generate{
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     background-color: #9203ff;
+=======
+    background-color:rgba(0,0,0,0.4);
+>>>>>>> 9cfba181093d2f9f1754dc34d579962c35ad8564
     padding: 12px;
     font-size: 20px;
     min-height: 500px;
@@ -45,10 +102,16 @@ form{
     margin: 20px;
 }
 #generate button{
+<<<<<<< HEAD
     background-color: rgb(119, 39, 188);
     color: white;
     width: 50px;
     height: 25px;
+=======
+    background-color: #a32bff;
+    width: 100px;
+    height: 35px;
+>>>>>>> 9cfba181093d2f9f1754dc34d579962c35ad8564
     margin-top: 20px;
 }
 input[type='text']{
@@ -63,9 +126,9 @@ input[type='number']{
     margin-top: 4px;
     margin-bottom: 60px;
 }
-/* #container{
-    display: none;
-} */
+#container{
+    position: relative;
+}
 body{
     display: flex;
     height: 100vh;
@@ -86,12 +149,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(51,51,51);
+    background-color: rgba(0,0,0,0.4);
     width: 900px;
     height: 600px;
     margin: 0;
     border-radius: 10px;
     z-index: 6;
+    position: relative;
 }
 #boxes{
     display: flex;
@@ -105,25 +169,32 @@ body{
     /* text-align: center; */
     justify-content: center;
     align-items: center;
-    background-color: rgb(205, 13, 13);
+    border: 1px solid #00e1ff;
     margin-top: 50px;
+    border-radius: 15px;
     cursor: pointer;
     display: none;
 }
 #result button{
-    width: 90px;
-    height: 25px;
+    width: 100px;
+    height: 35px;
     margin-top: 50px;
-
+    background-color: #a32bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
 }
 #clues{
     position: absolute;
     display: flex;
     width: 800px;
     height: 500px;
-    background-color: rgb(15, 15, 15);
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
@@ -135,14 +206,18 @@ body{
     margin-bottom: 10px;
 }
 #clues button{
-    background-color: rgb(62,46,46);
-    color: white;
+    background-color: #a32bff;
+    color: #fff;
+    border: none;
     margin: 5px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 }
 .active{
-    border: 2px solid white;
+    border: 2px solid #00e1ff;
 }
 #reveal_clue{
     width: 95px;
@@ -171,4 +246,54 @@ body{
     display: flex;
     gap: 40px;
     margin-top: 20px;
+}
+.guess{
+    margin-top: 35px;
+}
+#guess{
+    display: none;
+    flex-direction: column;
+    margin-top: 7px;
+}
+#anssubmit{
+    margin-top: -15px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back a{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+#submit1{
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #4a00e0;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 100px;
+    height: 40px;
+}
+h1, h2, h3{
+    color: rgb(255, 196, 0);
+    font-family: "Bubblegum Sans", cursive;
+}
+label{
+    color: #00e1ff;
+    font-weight: bold;
+    font-family: "Bubblegum Sans", cursive;
+}
+#radios label{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
 }

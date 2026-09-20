@@ -11,42 +11,65 @@
 </head>
 <body>
     <div id="container">
+<<<<<<< HEAD
     <main>
         <canvas id="particle-canvas" width="763" height="748"></canvas>
+=======
+    <div class="header">
+        <header>
+            <ul>
+                <li id="logo"><b>xGuess</b></li>
+                <li class="rightt"><a href="index.html">Home</a></li>
+                <li class="righttt"><a href="#about">About</a></li>
+                <li class="right"><a href="#generate">Generate</a></li>
+            </ul>
+        </header>
+    </div>
+    <main>
+        <div id="about">
+            <h2>About xGuess</h2>
+            <p>xGuess is a web application which is a part of quix, used to guess the football players from 2-3 clues. YOU have to enter some details and clues will generate then you can start guessing and then you need to guess the player with the input box given below the clues!!! (this is a web application made for having fun, and especially for football fans to test their ball knowledge yk). Also you need to name the player's FULL EXACT NAME, it should be same as in our data else you are gonna be wrong in the charge of speeling error.</p>
+        </div>
+>>>>>>> 9cfba181093d2f9f1754dc34d579962c35ad8564
 
         <div id="generate">
             <h2>Guess the football!</h2>
             <h3>Fill up the form!</h3>
             <form action="/savee" method="post" id="form">
-                <label for="name" class="l">Your Name:</label> <br>
+                <label for="name" class="l" required>Your Name:</label> <br>
                 <input type="text" id="name" placeholder="Jamie Lannister">
                 <br> 
 
                 <label for="limit" class="l">Limit:</label> <br>
-                <input type="number" placeholder="1 to 5 at once"><br>
+                <input type="number" placeholder="1 to 5 at once" required><br>
 
                 <label for="diff" id="ll">Difficulty:</label> <br>
-                <input type="radio" name="diff" class="radios" value="easy">
+                <div id="radios">
+                <input type="radio" name="diff" class="radios" value="easy" required>
                 <label for="easy">Easy</label> <br>
 
-                <input type="radio" name="diff" value="medium" class="radios">
+                <input type="radio" name="diff" value="medium" class="radios" required>
                 <label for="medium">Medium</label> <br>
 
-                <input type="radio" name="diff" value="hard" class="radios">
+                <input type="radio" name="diff" value="hard" class="radios" required>
                 <label for="hard">Hard</label><br>
 
-                <input type="radio" name="diff" value="extreme" class="radios">
+                <input type="radio" name="diff" value="extreme" class="radios" required>
                 <label for="extreme">Extreme</label><br>
+                    </div>
 
-                <button type="submit">Submit</button>
+                <button type="submit" id="submit1">Submit</button>
 
             </form>
         </div>
     </main>
     </div>
     <div id="don-container">
-    <div id="result">
-        <h2>Choose one box for one player!</h2> <br>
+        <div id="result">
+        <div class="back">
+            <a href="football.html">Back</a>
+        </div>
+        <h2 id="h2">Choose one box for one player!</h2> <br>
         <div id="boxes">
             <div class="box" data-number="1">1</div>
             <div class="box" data-number="2">2</div>
@@ -54,10 +77,13 @@
             <div class="box" data-number="4">4</div>
             <div class="box" data-number="5">5</div>
         </div>
-        <button id="revealll">Reveal Clues!</button>
+        <button id="revealll">Reveal!</button>
     </div>
 
         <div id="clues">
+            <!-- <div class="back">
+            <a href="football.html">Back</a><br>
+        </div> -->
             <h2>Clues:</h2>
             <div id="cluess">
             <p class="cluess">1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto pariatur reiciendis beatae quaerat, quidem mollitia ad necessitatibus! Nesciunt quas dignissimos distinctio, omnis accusamus neque culpa delectus. Eius reiciendis assumenda nesciunt!</p> <br>
@@ -66,9 +92,14 @@
         </div>
         <div id="buttonss">
             <button id="reveal_clue">Reveal Clue!</button>
-            <button id="hide">Hide</button>
-            </div>
+            <button id="hide">Hide</button> <br>
         </div>
+        <div class="guess">
+        <h3>Guess the Player:</h3>
+            <input type="text" name="guess" id="guess"> <br>
+            <button type="submit" id="anssubmit">Submit </button>
+            </div>
+            </div>
     </div>
     <script src="script.js"></script>
 </body>
