@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
          
         
+        let life = 3;
           ansbtn.addEventListener('click', ()=>{
               const guessed = document.querySelector('#guess').value.trim().toLowerCase();
               s21 = document.querySelector(".active").dataset.number;
@@ -103,14 +104,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
                if(guessed==realans){
                    alert(`${name}, YOU NAILED IT!!! It was ${guessed}`);
+                   life++;
                }else if(guessed!=realans){
-                   alert(`WRONG! It was ${realans}, better use some ball knowledge next time ${name}.`);
+                 life--;
+                   alert(`WRONG! It was ${realans}, better use some ball knowledge next time ${name} cuz you have only ${life} lives left!`);
+                   if(life<=0){
+                    alert(`You are eliminated cuz you have 0 lives!`);
+                    life =3;
+                    window.location.href = "./football.html";
+                   }
                    return;
+                   
                }
-            
           })
         }
         helo();
+        function hide(){
           const hidebtn = document.getElementById("hide");
           hidebtn.addEventListener("click", () => {
             document.getElementById("clues").style.display = "none";
@@ -120,6 +129,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
           });
         }
+        hide();
+      }
       });
   });
 });
