@@ -184,3 +184,14 @@ body{
 .cluess{
     display: none;
 }
+#cluess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#buttonss{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}

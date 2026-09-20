@@ -55,17 +55,26 @@ document.addEventListener('DOMContentLoaded',()=>{
                 console.log(cluess);
                 let i=0;
                 reveal_clue.addEventListener('click',()=>{
+                    const s21 = document.querySelector('.active').dataset.number;
                     if(i>2){
                         alert(`You already have gotten the clues dawg!`);
                     }
-                        cluess[i].style.display = 'flex'
+                        cluess[i].style.display = 'flex';
+                        if(i==0){
+                        cluess[i].innerHTML = `
+                        ${i+1}. ${clue1[s21-1]}
+                        `;
+                        }else if(i==1){
+                            cluess[i].innerHTML = `
+                            ${i+1}. ${clue2[s21-1]}
+                            `;
+                        }else if(i==2){
+                            cluess[i].innerHTML = `
+                            ${i+1}. ${clue3[s21-1]}
+                            `;
+                        }
                         i++;
-                    
-                    // cluess.forEach((clues, index)=>{
-                    //     console.log(2);
-                    //     cluess[index].display = "revert";
-                    //     console.log(1);
-                    // })
+
                 })
             }
         })
