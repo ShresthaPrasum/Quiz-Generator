@@ -10,11 +10,11 @@
     "player": "Cristiano Ronaldo",
     "clue1": "He has played for Sporting CP, Manchester United, Real Madrid, Juventus and Al Nassr.",
     "clue2": "He has won the Ballon d'Or five times and is the all-time top scorer in the Champions League.",
-    "clue3": "He is famous for a roaring 'Siuuu' celebration and a bicycle-kick goal against Juventus in 2018.",
+    "clue3": "He is the GOAT of football.",
     "difficulty": "easy"
   },
   {
-    "player": "Pelé",
+    "player": "Pele",
     "clue1": "He spent almost his entire club career at Santos before finishing with New York Cosmos.",
     "clue2": "He is the only player to have won three World Cups.",
     "clue3": "He scored in the 1958 World Cup final as a 17-year-old and is known as 'O Rei'.",
@@ -91,7 +91,7 @@
     "difficulty": "easy"
   },
   {
-    "player": "Zlatan Ibrahimović",
+    "player": "Zlatan Ibrahimovic",
     "clue1": "He played for Ajax, Juventus, Inter Milan, Barcelona, AC Milan and Manchester United.",
     "clue2": "He won league titles in the Netherlands, Italy, Spain and France.",
     "clue3": "He scored an acrobatic 30-yard overhead kick against England in 2012 and is famous for his larger-than-life ego.",
@@ -126,7 +126,7 @@
     "difficulty": "easy"
   },
   {
-    "player": "Andrés Iniesta",
+    "player": "Andres Iniesta",
     "clue1": "He came through La Masia and later moved to Vissel Kobe.",
     "clue2": "He won the 2010 World Cup and was named Player of the Tournament at Euro 2012.",
     "clue3": "He scored the 116th-minute winner in a World Cup final and a last-gasp equaliser at Chelsea in the 2009 Champions League semi-final.",
@@ -154,7 +154,7 @@
     "difficulty": "easy"
   },
   {
-    "player": "Luka Modrić",
+    "player": "Luka Modric",
     "clue1": "He played for Dinamo Zagreb, Tottenham Hotspur, Real Madrid and AC Milan.",
     "clue2": "He won the 2018 Ballon d'Or, ending a decade of dominance by two superstars.",
     "clue3": "He led his country to the 2018 World Cup final and won the Golden Ball at that tournament.",
@@ -168,7 +168,7 @@
     "difficulty": "easy"
   },
   {
-    "player": "Sergio Agüero",
+    "player": "Sergio Aguero",
     "clue1": "He played for Independiente, Atlético Madrid, Manchester City and Barcelona.",
     "clue2": "He is Manchester City's all-time record goalscorer with 260 goals.",
     "clue3": "His 93rd-minute goal against Queens Park Rangers won Manchester City the 2012 Premier League title on the final day.",
@@ -210,7 +210,7 @@
     "difficulty": "easy"
   },
   {
-    "player": "Ronaldo Nazário",
+    "player": "Ronaldo Nazario",
     "clue1": "He played for PSV Eindhoven, Barcelona, Inter Milan, Real Madrid, AC Milan and Corinthians.",
     "clue2": "He won the Ballon d'Or twice and scored 15 World Cup goals, a record he held until 2014.",
     "clue3": "He scored twice in the 2002 World Cup final and sported a famously unusual haircut at that tournament.",
@@ -266,7 +266,7 @@
     "difficulty": "medium"
   },
   {
-    "player": "Kaká",
+    "player": "Kaka",
     "clue1": "He played for São Paulo, AC Milan, Real Madrid and Orlando City.",
     "clue2": "He won the Ballon d'Or in 2007 and the 2002 World Cup.",
     "clue3": "He was the Champions League top scorer with 10 goals in 2006-07 and celebrated by pointing to the sky.",
@@ -343,7 +343,7 @@
     "difficulty": "medium"
   },
   {
-    "player": "Romário",
+    "player": "Romario",
     "clue1": "He played for Vasco da Gama, PSV, Barcelona, Flamengo and Valencia.",
     "clue2": "He won the 1994 World Cup and was named FIFA World Player of the Year that year.",
     "clue3": "He claimed to have scored over 1,000 career goals.",
@@ -364,14 +364,14 @@
     "difficulty": "medium"
   },
   {
-    "player": "Gerd Müller",
+    "player": "Gerd Muller",
     "clue1": "He spent most of his career at Bayern Munich.",
     "clue2": "He scored 14 World Cup goals across two tournaments, a record that stood for 32 years.",
     "clue3": "Nicknamed 'Der Bomber', he scored 365 Bundesliga goals.",
     "difficulty": "medium"
   },
   {
-    "player": "Lothar Matthäus",
+    "player": "Lothar Matthaus",
     "clue1": "He played for Borussia Mönchengladbach, Bayern Munich, Inter Milan and the New York MetroStars.",
     "clue2": "He captained his country to the 1990 World Cup and won the Ballon d'Or that year.",
     "clue3": "He played at five World Cups, and was for years the record holder for World Cup appearances.",
@@ -413,14 +413,14 @@
     "difficulty": "medium"
   },
   {
-    "player": "Vinícius Júnior",
+    "player": "Vinicius Junior",
     "clue1": "He came through Flamengo before moving to Real Madrid.",
     "clue2": "He scored the winning goal in the 2022 Champions League final.",
     "clue3": "He finished runner-up in the 2024 Ballon d'Or after being widely tipped to win it.",
     "difficulty": "medium"
   },
   {
-    "player": "Son Heung-min",
+    "player": "Son",
     "clue1": "He played for Hamburg, Bayer Leverkusen and Tottenham Hotspur before moving to LAFC.",
     "clue2": "He shared the 2021-22 Premier League Golden Boot with 23 goals, the first Asian player to win it.",
     "clue3": "He won the Puskás Award for a 70-yard solo run against Burnley in 2019.",
@@ -441,7 +441,7 @@
     "difficulty": "medium"
   },
   {
-    "player": "Luis Suárez",
+    "player": "Luis Suarez",
     "clue1": "He played for Nacional, Groningen, Ajax, Liverpool, Barcelona, Atlético Madrid and Inter Miami.",
     "clue2": "He won the European Golden Shoe twice, in 2014 and 2016.",
     "clue3": "His deliberate goal-line handball in the 2010 World Cup quarter-final against Ghana famously denied a certain goal.",
@@ -462,14 +462,14 @@
     "difficulty": "medium"
   },
   {
-    "player": "N'Golo Kanté",
+    "player": "Ngolo Kante",
     "clue1": "He played for Caen, Leicester City, Chelsea and Al-Ittihad.",
     "clue2": "He won back-to-back Premier League titles with two different clubs in 2016 and 2017.",
     "clue3": "Renowned for his humble personality and relentless ball-winning, he was a key part of the 2018 World Cup win.",
     "difficulty": "medium"
   },
   {
-    "player": "Sadio Mané",
+    "player": "Sadio Mane",
     "clue1": "He played for Metz, Red Bull Salzburg, Southampton, Liverpool, Bayern Munich and Al Nassr.",
     "clue2": "He won the Champions League in 2019 and the Africa Cup of Nations in 2022.",
     "clue3": "He scored the fastest hat-trick in Premier League history in 2015, in just 2 minutes 56 seconds.",
@@ -490,7 +490,7 @@
     "difficulty": "medium"
   },
   {
-    "player": "Raúl",
+    "player": "Raul",
     "clue1": "He spent 16 seasons at Real Madrid before playing for Schalke, Al Sadd and New York Cosmos.",
     "clue2": "He won three Champions League titles and was Real Madrid's record goalscorer for years.",
     "clue3": "He wore the No. 7 shirt and was the Champions League's all-time leading scorer until 2014.",
@@ -532,7 +532,7 @@
     "difficulty": "medium"
   },
   {
-    "player": "Jürgen Klinsmann",
+    "player": "Jurgen Klinsmann",
     "clue1": "He played for Stuttgart, Inter Milan, Monaco, Tottenham Hotspur and Bayern Munich.",
     "clue2": "He won the 1990 World Cup and Euro 1996 with his country.",
     "clue3": "He celebrated a goal on his Tottenham debut with a dive, poking fun at his reputation.",
@@ -553,28 +553,28 @@
     "difficulty": "medium"
   },
   {
-    "player": "Cesc Fàbregas",
+    "player": "Cesc Fabregas",
     "clue1": "He came through Barcelona's academy, left for Arsenal as a teenager and later played for Chelsea and Monaco.",
     "clue2": "He won the 2010 World Cup, providing the assist for the winning goal in the final.",
     "clue3": "He became Arsenal's youngest-ever first-team player in 2003 at just 16.",
     "difficulty": "medium"
   },
   {
-    "player": "Ferenc Puskás",
+    "player": "Ferenc Puskas",
     "clue1": "He starred at Budapest Honvéd before his peak years at Real Madrid.",
     "clue2": "He scored four goals in the 1960 European Cup final.",
     "clue3": "FIFA's annual award for the best goal of the year is named in his honour.",
     "difficulty": "hard"
   },
   {
-    "player": "Eusébio",
+    "player": "Eusebio",
     "clue1": "He spent 15 years at Benfica before finishing his career in North American leagues.",
     "clue2": "He won the 1965 Ballon d'Or and was top scorer at the 1966 World Cup with nine goals.",
     "clue3": "He was nicknamed the 'Black Panther'.",
     "difficulty": "hard"
   },
   {
-    "player": "Alfredo Di Stéfano",
+    "player": "Alfredo Di Stefano",
     "clue1": "He played for River Plate, Millonarios, Real Madrid and Espanyol.",
     "clue2": "He scored in each of the first five European Cup finals, all won by his club.",
     "clue3": "Nicknamed 'The Blond Arrow', he represented two different national teams.",
@@ -721,7 +721,7 @@
     "difficulty": "hard"
   },
   {
-    "player": "Claude Makélélé",
+    "player": "Claude Makelele",
     "clue1": "He played for Nantes, Marseille, Celta Vigo, Real Madrid, Chelsea and Paris Saint-Germain.",
     "clue2": "He won the 2002 Champions League with Real Madrid and two Premier League titles with Chelsea.",
     "clue3": "A defensive midfield role is named after him.",
@@ -742,7 +742,7 @@
     "difficulty": "hard"
   },
   {
-    "player": "Gerard Piqué",
+    "player": "Gerard Pique",
     "clue1": "He came through Barcelona's academy, spent time at Manchester United and returned to Barcelona.",
     "clue2": "He won the 2010 World Cup and Euro 2012.",
     "clue3": "He founded Kosmos and the Kings League and retired at the Camp Nou in 2022.",
@@ -777,7 +777,7 @@
     "difficulty": "hard"
   },
   {
-    "player": "Juan Román Riquelme",
+    "player": "Juan Roman Riquelme",
     "clue1": "He played for Boca Juniors, Barcelona, Villarreal and Argentinos Juniors.",
     "clue2": "He won the Copa Libertadores three times with Boca Juniors.",
     "clue3": "His stoppage-time penalty miss in the 2006 Champions League semi-final against Arsenal ended his club's dream.",
@@ -805,7 +805,7 @@
     "difficulty": "hard"
   },
   {
-    "player": "Jay-Jay Okocha",
+    "player": "Jay Jay Okocha",
     "clue1": "He played for Eintracht Frankfurt, Fenerbahçe, Paris Saint-Germain and Bolton Wanderers.",
     "clue2": "He won the 1994 Africa Cup of Nations.",
     "clue3": "He famously dribbled around a legendary German goalkeeper twice before scoring in 1993.",
@@ -833,7 +833,7 @@
     "difficulty": "hard"
   },
   {
-    "player": "Park Ji-sung",
+    "player": "Park Ji sung",
     "clue1": "He played for Kyoto Purple Sanga, PSV Eindhoven and Manchester United.",
     "clue2": "He won four Premier League titles and the 2008 Champions League with Manchester United.",
     "clue3": "He was nicknamed 'Three-Lungs' for his stamina.",
@@ -917,7 +917,7 @@
     "difficulty": "extreme"
   },
   {
-    "player": "Tostão",
+    "player": "Tostao",
     "clue1": "He spent his club career at Cruzeiro and Vasco da Gama.",
     "clue2": "He won the 1970 World Cup as part of a legendary attack.",
     "clue3": "He retired at 26 after eye surgery for a detached retina and later became a doctor.",
@@ -1015,35 +1015,35 @@
     "difficulty": "extreme"
   },
   {
-    "player": "Sándor Kocsis",
+    "player": "Sandor Kocsis",
     "clue1": "He played for Ferencváros, Budapest Honvéd, Young Fellows Zürich and Barcelona.",
     "clue2": "He was top scorer at the 1954 World Cup with 11 goals.",
     "clue3": "He was nicknamed 'Golden Head' for his aerial ability.",
     "difficulty": "extreme"
   },
   {
-    "player": "Hugo Sánchez",
+    "player": "Hugo Sanchez",
     "clue1": "He played for UNAM, Atlético Madrid, Real Madrid, Rayo Vallecano and Dallas Burn.",
     "clue2": "He won the Pichichi five times, including four straight seasons with Real Madrid.",
     "clue3": "He was famous for acrobatic bicycle-kick goals and celebrated with somersaults.",
     "difficulty": "extreme"
   },
   {
-    "player": "Cuauhtémoc Blanco",
+    "player": "Cuauhtemoc Blanco",
     "clue1": "He played for América, Valladolid, Necaxa, Veracruz and Chicago Fire.",
     "clue2": "He won the 1999 Confederations Cup with his country.",
     "clue3": "He was famous for a trademark move where he trapped the ball between his ankles and hopped past defenders at the 1998 World Cup.",
     "difficulty": "extreme"
   },
   {
-    "player": "Jean-Pierre Papin",
+    "player": "Jean Pierre Papin",
     "clue1": "He played for Valenciennes, Club Brugge, Marseille, AC Milan, Bayern Munich, Bordeaux and Guingamp.",
     "clue2": "He won the 1991 Ballon d'Or and was Ligue 1's top scorer five seasons in a row.",
     "clue3": "A style of volley shot from outside the box is named after him.",
     "difficulty": "extreme"
   },
   {
-    "player": "Sócrates",
+    "player": "Socrates",
     "clue1": "He spent most of his career at Corinthians and briefly played for Fiorentina.",
     "clue2": "He captained his country at the 1982 World Cup.",
     "clue3": "A qualified doctor who smoked and drank, he led the 'Corinthians Democracy' movement.",

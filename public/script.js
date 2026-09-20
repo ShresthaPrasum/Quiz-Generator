@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
                if(guessed==realans){
                    alert(`You GUESSED IT!!! It was ${guessed}`);
                }else if(guessed!=realans){
-                   alert(`WRONG!`);
+                   alert(`WRONG! It was ${realans}`);
                    return;
                }
             

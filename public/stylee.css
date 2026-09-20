@@ -87,9 +87,9 @@ input[type='number']{
     margin-top: 4px;
     margin-bottom: 60px;
 }
-/* #container{
-    display: none;
-} */
+#container{
+    position: relative;
+}
 body{
     display: flex;
     align-items: center;
@@ -115,6 +115,7 @@ body{
     margin: 0;
     border-radius: 10px;
     z-index: 6;
+    position: relative;
 }
 #boxes{
     display: flex;
@@ -209,4 +210,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.back a{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
 }
