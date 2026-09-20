@@ -9,7 +9,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const data = fs.readFileSync('questions.json', 'utf8');
 const parsed_data = JSON.parse(data);
-console.log('parsed')
+
+const dataa = fs.readFileSync('players.json', 'utf8');
+const parsed_dataa = JSON.parse(dataa);
 
 app.post('/save',(req,res)=>{
     const limit = req.body.limit;
@@ -29,6 +31,20 @@ app.post('/save',(req,res)=>{
         random: random_numforfun
     })
 })
+
+app.post('/savee', (req,res)=>{
+    const namee = req.body.name;
+    const limitt = req.body.limit;
+    const difff = req.body.diff;
+    const select1 = parsed_dataa.filter(p=> p.difficulty = difff.toLowerCase());
+    const select2 = select1.sort(()=> Math.random() - 0.5).slice(0,limitt);
+    console.log(select2);
+    res.json({
+        success: true,
+        data: select2,
+    });
+});
+
 app.listen(port, ()=>{
     console.log(`Server running on http://localhost:${port}`);
 })

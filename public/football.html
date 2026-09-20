@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Player Guesser</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <div class="header">
+        <header>
+            <ul>
+                <li id="logo"><b>xGuess</b></li>
+                <li class="rightt"><a href="#">Home</a></li>
+                <li class="righttt"><a href="#about">About</a></li>
+                <li class="right"><a href="#generate">Generate</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <main>
+        <div id="about">
+            <h2>About xGuess</h2>
+            <p>xGuess is a web application which is used to guess the football players from 2-3 clues. YOU have to enter some details and clues will generate then you can start guessing and then you need to guess the player with the input box given below the clues!!! (this is a web application made for having fun, and especially for football fans to test their ball knowledge yk). Also you need to name the player's FULL EXACT NAME, it should be same as in our data else you are gonna be wrong in the charge of speeling error.</p>
+        </div>
+
+        <div id="generate">
+            <h2>Generate the player's clues!</h2>
+            <h3>Fill up the form!</h3>
+            <form action="/savee" method="post" id="form">
+                <label for="name" class="l">Your Name:</label> <br>
+                <input type="text" id="name" placeholder="Jamie Lannister">
+                <br> 
+
+                <label for="limit" class="l">Limit:</label> <br>
+                <input type="number" placeholder="1 to 5 at once"><br>
+
+                <label for="diff" id="ll">Difficulty:</label> <br>
+                <input type="radio" name="diff" class="radios" value="easy">
+                <label for="easy">Easy</label> <br>
+
+                <input type="radio" name="diff" value="medium" class="radios">
+                <label for="medium">Medium</label> <br>
+
+                <input type="radio" name="diff" value="hard" class="radios">
+                <label for="hard">Hard</label><br>
+
+                <input type="radio" name="diff" value="extreme" class="radios">
+                <label for="extreme">Extreme</label><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </main>
+    </div>
+    <div id="don-container">
+    <div id="result">
+        <h2>Choose one box for one player!</h2> <br>
+        <div id="boxes">
+            <div class="box" data-number="1">1</div>
+            <div class="box" data-number="2">2</div>
+            <div class="box" data-number="3">3</div>
+            <div class="box" data-number="4">4</div>
+            <div class="box" data-number="5">5</div>
+        </div>
+        <button id="revealll">Reveal Clues!</button>
+    </div>
+
+        <div id="clues">
+            <h2>Clues:</h2>
+            <p class="cluess">1. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto pariatur reiciendis beatae quaerat, quidem mollitia ad necessitatibus! Nesciunt quas dignissimos distinctio, omnis accusamus neque culpa delectus. Eius reiciendis assumenda nesciunt!</p> <br>
+            <p class="cluess">2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto pariatur reiciendis beatae quaerat, quidem mollitia ad necessitatibus! Nesciunt quas dignissimos distinctio, omnis accusamus neque culpa delectus. Eius reiciendis assumenda nesciunt!</p> <br>
+            <p class="cluess">3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto pariatur reiciendis beatae quaerat, quidem mollitia ad necessitatibus! Nesciunt quas dignissimos distinctio, omnis accusamus neque culpa delectus. Eius reiciendis assumenda nesciunt!</p> <br>
+            <button id="reveal_clue">Reveal Clue!</button>
+            <button id="hide">Hide</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
