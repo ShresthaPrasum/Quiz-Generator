@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const limit = document.querySelector('input[type="number"]').value;
     if (limit < 1 || limit > 5) {
       alert(`Please enter limit from 1 to 5, else it will crash!`);
+      return;
     }
 
     fetch("/savee", {
@@ -37,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
           for (let i = 0; i < todisplay; i++) {
             boxs[i].style.display = "flex";
           }
+          document.getElementById('h2').innerText = `Choose one box for one player, ${name}!`;
           boxs.forEach((box) => {
             box.addEventListener("click", (e) => {
               boxs.forEach((b) => b.classList.remove("active"));
@@ -92,9 +94,9 @@ document.addEventListener("DOMContentLoaded", () => {
               console.log(realans);   
 
                if(guessed==realans){
-                   alert(`You GUESSED IT!!! It was ${guessed}`);
+                   alert(`${name}, YOU NAILED IT!!! It was ${guessed}`);
                }else if(guessed!=realans){
-                   alert(`WRONG! It was ${realans}`);
+                   alert(`WRONG! It was ${realans}, better use some ball knowledge next time ${name}.`);
                    return;
                }
             

@@ -1,16 +1,16 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Bubblegum+Sans&display=swap");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    color: white;
-    background-color: black;
+    color: #fff;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
     font-family: 'Poppins', sans-serif;
-    /* padding: 10px; */
 }
 header{
-    background-color: rgb(40, 39, 39);
+    background-color: rgba(0,0,0,0.4);
     padding: 10px;
     margin-bottom: 50px;
 }
@@ -43,10 +43,11 @@ a{
 }
 #logo{
     margin-left: 15px;
+    color: rgb(255, 196, 0);
 }
 #about{
     padding: 10px;
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(0,0,0,0.4);
     font-size: 20px;
     height: 200px;
     margin-bottom: 50px;
@@ -55,9 +56,10 @@ a{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    color: #00e1ff;
 }
 #generate{
-    background-color:rgb(51,51,51);
+    background-color:rgba(0,0,0,0.4);
     padding: 12px;
     font-size: 20px;
     height: 500px;
@@ -69,9 +71,9 @@ form{
     margin-top: 20px;
 }
 #generate button{
-    background-color: rgb(62, 46, 46);
-    width: 65px;
-    height: 25px;
+    background-color: #a32bff;
+    width: 100px;
+    height: 35px;
     margin-top: 20px;
     margin-left: 80px;
 }
@@ -109,7 +111,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(51,51,51);
+    background-color: rgba(0,0,0,0.4);
     width: 900px;
     height: 600px;
     margin: 0;
@@ -129,23 +131,30 @@ body{
     /* text-align: center; */
     justify-content: center;
     align-items: center;
-    background-color: rgb(205, 13, 13);
+    border: 1px solid #00e1ff;
     margin-top: 50px;
+    border-radius: 15px;
     cursor: pointer;
     display: none;
 }
 #result button{
-    width: 90px;
-    height: 25px;
+    width: 100px;
+    height: 35px;
     margin-top: 50px;
-
+    background-color: #a32bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
 }
 #clues{
     position: absolute;
     display: flex;
     width: 800px;
     height: 500px;
-    background-color: rgb(15, 15, 15);
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: left;
     justify-content: center;
@@ -159,14 +168,18 @@ body{
     margin-bottom: 10px;
 }
 #clues button{
-    background-color: rgb(62,46,46);
-    color: white;
+    background-color: #a32bff;
+    color: #fff;
+    border: none;
     margin: 5px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 }
 .active{
-    border: 2px solid white;
+    border: 2px solid #00e1ff;
 }
 #reveal_clue{
     width: 95px;
@@ -216,4 +229,29 @@ body{
     top: 20px;
     left: 20px;
 
+}
+#submit1{
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #4a00e0;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 100px;
+    height: 40px;
+}
+h1, h2, h3{
+    color: rgb(255, 196, 0);
+    font-family: "Bubblegum Sans", cursive;
+}
+label{
+    color: #00e1ff;
+    font-weight: bold;
+    font-family: "Bubblegum Sans", cursive;
+}
+#radios label{
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
