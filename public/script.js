@@ -58,12 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             guess.style.display="flex";
           revealbtn.addEventListener("click", () => {
-            const selected_box = document.querySelector(".active");
+            let selected_box = document.querySelector(".active");
             const s1 = selected_box.dataset.number;
             document.getElementById("clues").style.display = "flex";
           });
           let i = 0;
-
+        let points = 0;
           function helo(){
              const guess = document.querySelector('#guess');
              const ansbtn = document.querySelector('#anssubmit')
@@ -103,14 +103,34 @@ document.addEventListener("DOMContentLoaded", () => {
               console.log(realans);   
 
                if(guessed==realans){
-                   alert(`${name}, YOU NAILED IT!!! It was ${guessed}`);
+                if(i==0){
+                  points += 250;
+                  alert(`${name}, YOU NAILED IT!!! It was ${guessed} and you have ${points} points now which means +250 points cuz you did it WITHOUT ANY CLUE!!!`);
+                }else if(i==1){
+                  points += 150;
+                  alert(`${name}, You SOLVED IT!, It was indeed ${guessed} and you have ${points} points now which means +150 points as you did it ONLY ONE CLUE!!`)
+                }else if(i==2){
+                  points += 100;
+                  alert(`${name}, You DID IT!, It was ${guessed} and you have ${points} points now which means +100 as you did it with 2 clues ONLY!`);
+                }else{
+                  points +=50;
+                  alert(`You guessed it! Well done, it was ${guessed}. You now have ${points} points which means +50 as you did it after 3 clues!`);
+                }
                    life++;
+                   
+                   document.querySelector('.active').classList.add('disabled');
+                   console.log(points)
+                   hide();
+                   
                }else if(guessed!=realans){
                  life--;
                    alert(`WRONG! It was ${realans}, better use some ball knowledge next time ${name} cuz you have only ${life} lives left!`);
+                   document.querySelector('.active').classList.add('disabled');
+                   hide();
                    if(life<=0){
                     alert(`You are eliminated cuz you have 0 lives!`);
                     life =3;
+                    console.log(points);
                     window.location.href = "./football.html";
                    }
                    return;
@@ -120,6 +140,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         helo();
         function hide(){
+          document.getElementById("clues").style.display = "none";
+            document.getElementsByClassName("cluess").display = "revert";
+            i=0;
+            document.querySelectorAll('.cluess').forEach(el=>el.style.display="none");
+            
+       if (document.querySelectorAll('.box.disabled').length === todisplay) {
+    document.getElementById('h2').innerText = `You got ${points} points in total!`;
+}
+        }
           const hidebtn = document.getElementById("hide");
           hidebtn.addEventListener("click", () => {
             document.getElementById("clues").style.display = "none";
@@ -128,8 +157,6 @@ document.addEventListener("DOMContentLoaded", () => {
             document.querySelectorAll('.cluess').forEach(el=>el.style.display="none");
 
           });
-        }
-        hide();
       }
       });
   });
